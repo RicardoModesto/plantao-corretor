@@ -119,10 +119,12 @@
 	list-style: none;
 	text-decoration: none;
 }
+body{
+    background-color: #E7E7E7;
+}
 table{
 	border-collapse: collapse;
 }
-
 #geral{
 	position: relative;
 	width: 100%;
@@ -131,19 +133,4 @@ table{
 	position: relative;
 	width: 960px;
 	margin: 0 auto;
-}
-#geral #header{
-	background: url(../imagens/bg-cont-header.jpg) repeat;
-	position: relative;
-	width: 100%;
-	height: 351px;
-}
-#geral #header h1 a.logo{
-	background: url(../imagens/logo.png) repeat;
-	width: 191px;
-	height: 169px;
-	display: block;
-	text-indent: -9999px;
-	margin: 39px 20px 0 0;
-	float: left;
 }
