@@ -132,6 +132,8 @@ table{
 	width: 960px;
 	margin: 0 auto;
 }
+
+/* ============================= header =========================== */
 #geral #header{
 	background: url(../imagens/bg-cont-header.jpg) repeat;
 	position: relative;
@@ -146,4 +148,44 @@ table{
 	text-indent: -9999px;
 	margin: 39px 20px 0 0;
 	float: left;
+}
+#geral #header .banner{
+	position: relative;
+    float: left;
+    width: 728px;
+    height: 90px;
+    margin: 20px 0 0 0; 
+}
+#geral #header .busca{
+    background: url(../imagens/bg-busca.png) repeat;
+    position: relative;
+    width: 423px;
+    height: 56px;
+    float: left;
+    margin-top: 18px;
+}
+#geral #header .busca input[type="text"]{
+    background: none;
+    width: 350px;
+    height: 50px;
+    margin: 1px 0 0 25px;
+    font-family: 'latolight_italic';
+    font-size: 25px;
+    color: #fff;
+    float: left;
+}
+#geral #header .busca input[type="buttom"]{
+    background: url(../imagens/ico-busca.png) repeat;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    float: left;
+    margin-top: 7px;
+}
+#geral #header .selecaoEstadoCidade{
+    background: url(../imagens/bg-selecao-estado-cidade.png) repeat;
+    float: left;
+    width: 297px;
+    height: 50px;
+    margin: 19px 0 0 10px;
 }
