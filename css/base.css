@@ -146,7 +146,7 @@ table{
 	height: 169px;
 	display: block;
 	text-indent: -9999px;
-	margin: 39px 20px 0 0;
+	margin: 32px 20px 0 0;
 	float: left;
 }
 #geral #header .banner{
@@ -188,4 +188,37 @@ table{
     width: 297px;
     height: 50px;
     margin: 19px 0 0 10px;
+}
+#geral #header .extHeader{
+    background: url(../imagens/bg-header.png) no-repeat scroll -10px 0;
+    width: 960px;
+    height: 100px;
+    position: relative;
+    float: left;
+    clear: both;
+}
+#geral #header .extHeader ul{
+    margin: 5px 0 0 220px;
+    float: left;
+}
+#geral #header .extHeader ul li{
+    float: left;
+    margin-left: 25px;
+}
+#geral #header .extHeader ul li:first-child{
+    margin-left: 0;
+}
+#geral #header .extHeader ul li a{
+    width: 137px;
+    height: 40px;
+    line-height: 38px;
+    display: block;
+    text-align: center;
+    font-family: 'latoitalic';
+    color: #b9b9b9;
+    text-transform: uppercase;
+}
+#geral #header .extHeader ul li a.atv, #geral #header .extHeader ul li a:hover{
+     background: url(../imagens/bg-selecao.png) no-repeat scroll 0 0; 
+     color: #fff;
 }
