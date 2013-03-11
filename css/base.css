@@ -122,7 +122,11 @@
 table{
 	border-collapse: collapse;
 }
-
+body{
+     background: #f3f4f4;
+     width: 100%;
+     overflow-x: hidden; 
+}
 #geral{
 	position: relative;
 	width: 100%;
@@ -221,4 +225,185 @@ table{
 #geral #header .extHeader ul li a.atv, #geral #header .extHeader ul li a:hover{
      background: url(../imagens/bg-selecao.png) no-repeat scroll 0 0; 
      color: #fff;
+}
+#geral #header .boxBusca{
+    background: url(../imagens/bg-box-busca.jpg) no-repeat scroll 0 0; 
+    width: 920px;
+    height: 220px;
+    position: relative;
+    float: left;
+    margin-top: -40px;
+    padding-left: 20px;
+}
+#geral #header .boxBusca h2{
+     background: url(../imagens/ico-encontre-imovel.png) no-repeat scroll 0 0; 
+     font-family: 'latolight_italic';
+     font-size: 39px;
+     color: #fff;
+     padding-left: 70px;
+     margin-top: 12px;
+     line-height: 60px;
+     float: left;
+     letter-spacing: -2px;
+}
+span.destq{
+    font-family: 'latoitalic';
+}
+#geral #header .boxBusca ul{
+    float: left;
+    margin: 25px 0 0 35px;
+}
+#geral #header .boxBusca ul li{
+    float: left;
+    margin-left: -22px;
+}
+#geral #header .boxBusca ul li a{
+    background: url(../imagens/spt-filtro.png) no-repeat scroll 0 0; 
+    display: block;
+    text-indent: -9999px;
+    height: 45px;
+}
+#geral #header .boxBusca ul li a.transacao{
+    background-position: 0 0;
+    width: 158px;
+}
+#geral #header .boxBusca ul li a.tipo{
+    background-position: -156px 0;
+    width: 99px;
+}
+#geral #header .boxBusca ul li a.bairro{
+    background-position: -253px 0;
+    width: 113px;
+}
+#geral #header .boxBusca ul li a.quartos{
+    background-position: -365px 0;
+    width: 130px;
+}
+#geral #header .boxBusca ul li a.preco{
+    background-position: -494px 0;
+    width: 107px;
+}
+#geral #header .boxBusca .boxDestaque{
+    background: #fff;
+    height: 85px;
+    width: 900px;
+    float: left;
+    margin-top: -5px;
+}
+#geral #header .boxBusca .boxDestaque .opcao{
+    background: url(../imagens/bg-selecao-imovel.png) no-repeat scroll 0 0;
+    position: relative;
+    float: left;
+    width: 211px;
+    height: 40px;
+    text-transform: uppercase;
+    margin: 22px 0 0 243px;
+    line-height: 43px;
+}
+#geral #header .boxBusca .boxDestaque .opcao.aux{
+    margin-left: 5px;
+}
+#geral #header .boxBusca .boxDestaque .opcao label{
+    font-family: 'latolight_italic';
+    color: #666666;
+    font-size: 14px;
+}
+#geral #header .boxBusca h3{
+    background: url(../imagens/legenda-buscar-imoveis.jpg) no-repeat scroll 0 0;
+    width: 212px;
+    height: 41px;
+    text-indent: -9999px;
+   clear: both;
+   margin: 0 auto;
+}
+
+/* estiliza o radio buttom */
+.custom-form-radio {
+    float:left;
+    display:block;
+    width:18px;
+    height:18px;
+    background:url(../imagens/spt-radio.png) no-repeat scroll 0 0 transparent;
+    margin: 12px 0 0 10px;
+}
+.custom-form-radio.custom-form-focused {
+    background-position: 0 -18px;
+}
+
+.custom-form-radio.custom-form-checked {
+    background-position:0 -18px;
+}
+
+.custom-form-radio.custom-form-checked.custom-form-focused {
+    background-position:0 -18px;
+}
+
+/* ================== conteudo ================= */
+#conteudo{
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#conteudo h2{
+    font-family: 'latolight_italic';
+}
+#conteudo ul.listaImoveis li{
+    background: #fff;
+    position: relative;
+    float: left;
+    width: 210px;
+    height: 327px;
+    padding: 5px;
+    margin-right: 8px;
+    border-left: 1px solid #e8e7e7;
+    border-right: 1px solid #e8e7e7;
+    border-bottom: 1px solid #d3d3d2;
+}
+#conteudo ul.listaImoveis li img.fotoImovel{
+    margin-bottom: 9px;
+}
+#conteudo ul.listaImoveis li h4{
+    color: #068592;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    font-weight: normal;
+    float: left;
+    margin: 5px 0 0 5px;
+}
+#conteudo ul.listaImoveis li img.status{
+    float: right;
+    margin:0 5px 5px 0;
+}
+#conteudo ul.listaImoveis li span.seloNovo{
+    background:url(../imagens/selo-novo.png) repeat scroll 0 0 transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#conteudo ul.listaImoveis li ul.infos li{
+    background:url(../imagens/bg-infos.listaImoveis.jpg) repeat scroll 0 0 transparent;
+    width: 198px;
+    height: 30px;
+    margin-bottom: 3px;
+    line-height: 30px;
+    border: none;
+}
+#conteudo ul.listaImoveis li ul.infos li span.esquerda{ 
+    display: block;
+    width: 50%;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    font-family: 'latoregular';
+    font-size: 10px;
+    font-weight: bold;
+}
+#conteudo ul.listaImoveis li ul.infos li span.direita{
+    width: 50%;
+    text-align: right;
+    float: left;
+    font-size: 15px;
+    font-family: 'latoitalic';
 }

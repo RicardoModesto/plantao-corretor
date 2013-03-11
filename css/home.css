@@ -1,0 +1,53 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+}
+#conteudo h2.venda{
+	color: #068592;
+	margin-bottom: 30px;
+}
+#conteudo span.camadaIntvaEsq{
+	background:url(../imagens/mascara-intva.png) repeat scroll 0 0 transparent;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	z-index: 9998;
+	margin-left: -480px;
+}
+#conteudo #imoveisVenda{
+
+}
+#conteudo #imoveisVenda ul.listaImoveis{
+	width: 5000px;
+}
+#conteudo #imoveisVenda ul.listaImoveis li ul.infos li span.esquerda{
+	color: #666666;
+}
+#conteudo #imoveisVenda ul.listaImoveis li ul.infos li span.direita{
+	color: #068592;
+}
+#conteudo a.prev{
+	background:url(../imagens/spt-setas.png) repeat scroll 0 0 transparent;
+	display: block;
+	text-indent: -9999px;
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	z-index: 9999;
+	left: 10%;
+	top: 190px;
+}
+#conteudo a.next{
+	background:url(../imagens/spt-setas.png) repeat scroll 83px 0 transparent;
+	display: block;
+	text-indent: -9999px;
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	z-index: 9999;
+	right: 10%;
+	top: 190px;
+}
