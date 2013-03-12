@@ -16,12 +16,26 @@
 	position: absolute;
 	z-index: 9998;
 	margin-left: -480px;
+	left: 0;
+}
+#conteudo span.camadaIntvaDir{
+	background:url(../imagens/mascara-intva.png) repeat scroll 0 0 transparent;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	z-index: 9998;
+	margin-right: -460px;
+	right: 0;
 }
 #conteudo #imoveisVenda{
-
+	height: 420px;
+	position: relative;
 }
 #conteudo #imoveisVenda ul.listaImoveis{
 	width: 5000px;
+	position: absolute;
+	margin-left: -480px;
+	left: 50%;
 }
 #conteudo #imoveisVenda ul.listaImoveis li ul.infos li span.esquerda{
 	color: #666666;
@@ -31,7 +45,7 @@
 }
 #conteudo a.prev{
 	background:url(../imagens/spt-setas.png) repeat scroll 0 0 transparent;
-	display: block;
+	display: none;
 	text-indent: -9999px;
 	width: 85px;
 	height: 85px;
