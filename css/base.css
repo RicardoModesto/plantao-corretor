@@ -118,6 +118,7 @@
 	border:0;
 	list-style: none;
 	text-decoration: none;
+    font-weight: normal;
 }
 table{
 	border-collapse: collapse;
@@ -338,14 +339,43 @@ span.destq{
     background-position:0 -18px;
 }
 
+/* =================== tags =============== */
+#conteudo h2{
+    font-family: 'latolight_italic';
+}
+#conteudo h3{
+    font-family: 'latoitalic';
+}
+#conteudo p{
+    font-family: 'latoitalic';
+}
+#conteudo a.btnSaibaMais{
+    background:url(../imagens/btn-mais.jpg) repeat scroll 0 0 transparent;
+    width: 62px;
+    height: 33px;
+    display: block;
+    text-indent: -9999px;
+}
+#conteudo label{
+    font-family: 'latoitalic';
+}
+#conteudo input[type="text"]{
+    background:url(../imagens/bg-cpos-login.jpg) no-repeat scroll 0 0 transparent;
+    width: 218px;
+    height: 41px;
+    font-family: 'latoitalic';
+    font-size: 14px;
+    color: #bebebe;
+    padding: 0 12px;
+    text-transform: uppercase;
+    line-height: 41px;
+}
+
 /* ================== conteudo ================= */
 #conteudo{
     position: relative;
     width: 100%;
     float: left;
-}
-#conteudo h2{
-    font-family: 'latolight_italic';
 }
 #conteudo ul.listaImoveis li{
     background: #fff;
@@ -406,4 +436,78 @@ span.destq{
     float: left;
     font-size: 15px;
     font-family: 'latoitalic';
+}
+
+/* ============== footer =============== */
+#footer{
+    background:url(../imagens/bg-footer.jpg) repeat scroll 0 0 transparent;
+    position: relative;
+    width: 100%;
+    height: 306px;
+    float: left;
+    z-index: 9999;
+}
+#footer h5{
+    font-family: 'latoitalic';
+    font-size: 25px;
+    color: #ffffff;
+}
+#footer ul{
+    margin-top: 33px;
+    float: left;
+    position: relative;
+    z-index: 9999;
+}
+#footer ul li{
+    float: left;
+    margin-right: 70px;
+}
+#footer ul li ul{
+    margin-top: 15px;
+    border-left: 1px solid #707070;
+}
+#footer ul li ul li{
+    clear: both;
+    float: left;
+    margin:5px 0 0 12px;
+}
+#footer ul li ul li a{
+    font-family: 'latolight_italic';
+    font-size: 16px;
+    color: #BEBEBE;
+}
+#footer ul li ul li a:hover{
+    text-decoration: underline;
+}
+#footer img.seloPagamento{
+    position: absolute;
+    z-index: 9998;
+    right: -5px;
+}
+#footer ul.formasPagamento{
+    background:url(../imagens/spt-formas-pagamento.png) repeat scroll 0 0 transparent;
+    width: 190px;
+    height: 95px;
+    margin: 95px 0 0 100px;
+}
+#footer ul.formasPagamento li{
+    display: none;
+}
+#footer p.copyright{
+    font-family: 'latoitalic';
+    font-size: 12px;
+    color: #BEBEBE;
+    text-transform: uppercase;
+    float: left;
+    clear: both;
+    margin-top: 65px;
+}
+#footer a.seloInoltz{
+    background:url(../imagens/produzido-por-inoltz.jpg) repeat scroll 0 0 transparent;
+    width: 105px;
+    height: 12px;
+    display: block;
+    text-indent: -9999px;
+    float: right;
+    margin-top: 65px;
 }

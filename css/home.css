@@ -9,6 +9,10 @@
 	color: #068592;
 	margin-bottom: 30px;
 }
+#conteudo h2.aluga{
+	color: #3c9810;
+	margin-bottom: 30px;
+}
 #conteudo span.camadaIntvaEsq{
 	background:url(../imagens/mascara-intva.png) repeat scroll 0 0 transparent;
 	width: 50%;
@@ -30,17 +34,23 @@
 #conteudo #imoveisVenda{
 	height: 420px;
 	position: relative;
+	margin-bottom: 80px;
 }
-#conteudo #imoveisVenda ul.listaImoveis{
+#conteudo #imoveisAluga{
+	height: 420px;
+	position: relative;
+	margin-bottom: 80px;
+}
+#conteudo ul.listaImoveis{
 	width: 5000px;
 	position: absolute;
 	margin-left: -480px;
 	left: 50%;
 }
-#conteudo #imoveisVenda ul.listaImoveis li ul.infos li span.esquerda{
+#conteudo ul.listaImoveis li ul.infos li span.esquerda{
 	color: #666666;
 }
-#conteudo #imoveisVenda ul.listaImoveis li ul.infos li span.direita{
+#conteudo ul.listaImoveis li ul.infos li span.direita{
 	color: #068592;
 }
 #conteudo a.prev{
@@ -64,4 +74,160 @@
 	z-index: 9999;
 	right: 10%;
 	top: 190px;
+}
+
+/* ================= destaque =============== */
+#conteudo .destaque{
+	background: #fff;
+	width: 100%;
+	height: 275px;
+	position: relative;
+	z-index: 9999;
+	margin-top: 1px solid #f2f2f1;
+	padding-top: 30px;
+}
+#conteudo .destaque .boxDestaque{
+	position: relative;
+	width: 620px;
+	float: left;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#conteudo .destaque .boxDestaque h2{
+	color: #068592;
+	font-size: 33px;
+	margin: 10px 0;
+	text-align: left;
+}
+#conteudo .destaque .boxDestaque .boxImg{
+	position: relative;
+	float: left;
+	width: 220px;
+}
+#conteudo .destaque .boxDestaque .infos{
+	position: relative;
+	float: left;
+	width: 340px;
+	padding-left: 10px;	
+}
+#conteudo .destaque .boxDestaque .infos h3{
+	color: #666666;
+	font-size: 24px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #d9d9d9;
+}
+#conteudo .destaque .boxDestaque .infos p{
+	color: #999999;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+#conteudo .destaque .boxDestaque a.btnSaibaMais{
+	position: absolute;
+	bottom: -33px;
+	left: 280px;
+}
+#conteudo .destaque .banner{
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-left: 20px;
+}
+
+/* =================== login ================= */
+#conteudo #extLogin{
+	background: #fff;
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+	padding-top: 22px;
+}
+#conteudo #extLogin .box{
+	background:url(../imagens/bg-ext-login.jpg) repeat scroll 0 0 transparent;
+	width: 476px;
+	height: 30px;
+	padding: 13px 0 0 14px;
+}
+.custom-form-checkbox {
+	float:left;
+	display:block;
+	width:21px;
+	height:17px;
+	margin-right:10px;
+	background:url(../imagens/spt-check.png) no-repeat scroll 0 2px transparent;
+	cursor: pointer;
+	float: left;
+}
+.custom-form-checkbox.custom-form-checked {
+	background-position:0 -17px;
+}
+#conteudo #extLogin .box label{
+	color: #bebebe;
+	font-size: 14px;
+	margin-top: 2px;
+	float: left;
+}
+
+#conteudo #extLogin .esqueceuSenha{
+	position: relative;
+	float: right;
+	margin-right: 100px;
+}
+#conteudo #extLogin .esqueceuSenha a.tool{
+	background:url(../imagens/ico-interrogacao.png) no-repeat scroll 0 2px transparent;
+	display: block;
+	width: 22px;
+	height: 21px;
+	text-indent: -9999px;
+	float: left;
+}
+#conteudo #extLogin .esqueceuSenha p{
+	font-family: 'latoitalic';
+	color: #bebebe;
+	font-size: 14px;
+	float: left;
+	margin: 4px 0 0 5px;
+}
+
+/* ================== login ================== */
+#conteudo #login{
+	background:url(../imagens/bg-login.jpg) repeat scroll 0 0 transparent;
+	position: relative;
+	width: 100%;
+	height: 41px;
+	z-index: 9999;
+	padding: 10px 0;
+}
+#conteudo #login input[type="text"]{
+	float: left;
+	margin-right: 8px;
+}
+#conteudo #login input.btnLogin{
+	background:url(../imagens/btn-login.jpg) repeat scroll 0 0 transparent;
+	width: 114px;
+	height: 41px;
+	cursor: pointer;
+	float: left;
+}
+#conteudo #login .redesLogin{
+	float: right;
+	position: relative;
+	margin-top: 10px;
+}
+#conteudo #login .redesLogin a{
+	background:url(../imagens/spt-fb-tw.jpg) repeat scroll 0 0 transparent;
+	display: block;
+	text-indent: -9999px;
+	height: 22px;
+	float: left;
+	margin-left: 20px;
+}
+#conteudo #login .redesLogin a.fb{
+	background-position: 0 0;
+	width: 90px;
+}
+#conteudo #login .redesLogin a.tw{
+	background-position: -105px 0;
+	width: 75px;
 }
