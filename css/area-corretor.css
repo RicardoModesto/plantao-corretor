@@ -8,6 +8,7 @@
 }
 body{
     background-color: #e8e8e8;
+    font-family: 'latoitalic';
 }
 table{
 	border-collapse: collapse;
@@ -34,12 +35,14 @@ table{
     left: 10px;
     position: relative;
     top: -13px;
+    font-size: 16px;
 }
 #geral div.logado ul{	
 	display: inline-block;
     left: 60px;
     position: relative;
     top: -6px;
+    font-size: 14px;
 }
 #geral div.logado li{
 	float: left;
@@ -64,4 +67,56 @@ table{
 
 }
 
+
+#geral .perfil{
+	margin-top: 30px;
+}
+#geral .perfil .imgPerfil{
+	 border: 4px solid #FFFFFF;
+    box-shadow: 1px 1px 3px #DDDDDD;
+    float: left;
+}
+#geral .perfil img.imgPerfil {
+	 width: 210px;
+	 height: 210px;
+}
+#geral .perfil h1{
+	color: #068592;
+	font-size: 40px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 35px;
+}
+#geral .perfil .redes-sociais{
+	float: left;
+}
+#geral .perfil .redes-sociais li{
+	float: left;
+}
+#geral .perfil .redes-sociais li a{
+    display: inline-block;
+    height: 36px;
+    text-indent: -999999px;
+    width: 38px;
+ }
+#geral .perfil .redes-sociais li a.facebook{
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll 0 0 transparent;
+ }
+#geral .perfil .redes-sociais li a.twitter{
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll -39px 0 transparent;
+ }
+#geral .perfil .redes-sociais li a.linkedin{ 
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll -78px 0 transparent;
+}
+#geral .perfil .creci{ 
+    background: url("../imagens/bg-creci.png") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 30px;
+    padding-left: 60px;
+    padding-top: 6px;
+    width: 138px;
+}
 
