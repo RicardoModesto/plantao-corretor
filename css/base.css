@@ -439,6 +439,104 @@ span.destq{
 }
 
 /* ============== footer =============== */
+/* =================== login ================= */
+#conteudo #extLogin{
+    background: #fff;
+    position: relative;
+    width: 100%;
+    z-index: 9998;
+    padding-top: 22px;
+}
+#conteudo #extLogin .box{
+    background:url(../imagens/bg-ext-login.jpg) repeat scroll 0 0 transparent;
+    width: 476px;
+    height: 30px;
+    padding: 13px 0 0 14px;
+}
+.custom-form-checkbox {
+    float:left;
+    display:block;
+    width:21px;
+    height:17px;
+    margin-right:10px;
+    background:url(../imagens/spt-check.png) no-repeat scroll 0 2px transparent;
+    cursor: pointer;
+    float: left;
+}
+.custom-form-checkbox.custom-form-checked {
+    background-position:0 -17px;
+}
+#conteudo #extLogin .box label{
+    color: #bebebe;
+    font-size: 14px;
+    margin-top: 2px;
+    float: left;
+}
+
+#conteudo #extLogin .esqueceuSenha{
+    position: relative;
+    float: right;
+    margin-right: 100px;
+}
+#conteudo #extLogin .esqueceuSenha a.tool{
+    background:url(../imagens/ico-interrogacao.png) no-repeat scroll 0 2px transparent;
+    display: block;
+    width: 22px;
+    height: 21px;
+    text-indent: -9999px;
+    float: left;
+}
+#conteudo #extLogin .esqueceuSenha p{
+    font-family: 'latoitalic';
+    color: #bebebe;
+    font-size: 14px;
+    float: left;
+    margin: 4px 0 0 5px;
+}
+
+/* ================== login ================== */
+#conteudo #login{
+    background:url(../imagens/bg-login.jpg) repeat scroll 0 0 transparent;
+    position: relative;
+    width: 100%;
+    height: 41px;
+    z-index: 9999;
+    padding: 10px 0;
+}
+#conteudo #login input[type="text"]{
+    float: left;
+    margin-right: 8px;
+}
+#conteudo #login input.btnLogin{
+    background:url(../imagens/btn-login.jpg) repeat scroll 0 0 transparent;
+    width: 114px;
+    height: 41px;
+    cursor: pointer;
+    float: left;
+}
+#conteudo #login .redesLogin{
+    float: right;
+    position: relative;
+    margin-top: 10px;
+}
+#conteudo #login .redesLogin a{
+    background:url(../imagens/spt-fb-tw.jpg) repeat scroll 0 0 transparent;
+    display: block;
+    text-indent: -9999px;
+    height: 22px;
+    float: left;
+    margin-left: 20px;
+}
+#conteudo #login .redesLogin a.fb{
+    background-position: 0 0;
+    width: 90px;
+}
+#conteudo #login .redesLogin a.tw{
+    background-position: -105px 0;
+    width: 75px;
+}
+
+/* ================== footer ================== */
 #footer{
     background:url(../imagens/bg-footer.jpg) repeat scroll 0 0 transparent;
     position: relative;
@@ -482,7 +580,8 @@ span.destq{
 #footer img.seloPagamento{
     position: absolute;
     z-index: 9998;
-    right: -5px;
+    right: 12px;
+    top: 3px;
 }
 #footer ul.formasPagamento{
     background:url(../imagens/spt-formas-pagamento.png) repeat scroll 0 0 transparent;
