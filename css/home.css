@@ -44,8 +44,12 @@
 #conteudo ul.listaImoveis{
 	width: 5000px;
 	position: absolute;
-	margin-left: -480px;
-	left: 50%;
+	/*margin-left: -480px;
+	left: 50%;*/
+	left: 0;
+}
+#conteudo ul.listaImoveis li{
+	position: absolute;
 }
 #conteudo ul.listaImoveis li ul.infos li span.esquerda{
 	color: #666666;
@@ -55,7 +59,7 @@
 }
 #conteudo a.prev{
 	background:url(../imagens/spt-setas.png) repeat scroll 0 0 transparent;
-	display: none;
+	display: block;
 	text-indent: -9999px;
 	width: 85px;
 	height: 85px;

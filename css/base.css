@@ -419,6 +419,7 @@ span.destq{
     margin-bottom: 3px;
     line-height: 30px;
     border: none;
+    position: relative;
 }
 #conteudo ul.listaImoveis li ul.infos li span.esquerda{ 
     display: block;
