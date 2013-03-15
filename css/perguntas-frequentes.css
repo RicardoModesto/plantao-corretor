@@ -67,7 +67,7 @@
 	margin: 15px auto 0 auto;
 }
 #conteudo .formContato input[type="text"]{
-	background: #f3f3f3;
+	background: #edecec;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -81,7 +81,7 @@
 	color: #068592;
 }
 #conteudo .formContato textarea{
-	background: #f3f3f3;
+	background: #edecec;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;

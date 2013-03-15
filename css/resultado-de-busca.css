@@ -1,0 +1,86 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+	color: #068592;
+	margin-bottom: 15px;
+}
+#conteudo h3{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'latoitalic';
+	color: #068592;
+	margin-top: 30px;
+	letter-spacing: -1px;
+}
+#conteudo .barraResultado{
+	background: #fff;
+	position: relative;
+	height: 29px;
+	line-height: 33px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e3e3e2;
+}
+#conteudo .barraResultado ul{
+	float: left;
+	height: 16px;
+}
+#conteudo .barraResultado ul li{
+	background: url("../imagens/bullet-lista-resultado-busca.jpg") no-repeat scroll left center transparent;
+	float: left;
+	padding-left: 8px;
+	font-family: 'latoitalic';
+	font-size: 13px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-left: 8px;
+}
+#conteudo .barraResultado ul li:first-child{
+	background: none;
+}
+#conteudo .barraResultado a.editarBusca{
+	background: url("../imagens/btn-editar-busca.jpg") no-repeat scroll 0 0 transparent;
+	width: 98px;
+	height: 22px;
+	display: block;
+	text-indent: -9999px;
+	float: right;
+	margin: 4px 5px 0 0;
+}
+#conteudo p.qtdImoveisEncontrados{
+	text-align: center;
+	color: #068592;
+	font-size: 16px;
+	margin: 21px 0 34px 0;
+	text-transform: uppercase;
+}
+#conteudo p span.destq{
+	font-family: 'latoblack_italic';
+}
+#conteudo ul.listaImoveis li {
+	margin-bottom: 8px;
+}
+#conteudo ul.listaImoveis li ul.infos li span.esquerda {
+	color: #666666;
+}
+#conteudo ul.listaImoveis li ul.infos li span.direita {
+	color: #068592;
+}
+
+#conteudo #login{
+	margin-top: 185px;
+}
+#conteudo #login .redesLogin a.perguntasFrequentes {
+    background: url("../imagens/img-perguntas-frequentes.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 163px;
+}
