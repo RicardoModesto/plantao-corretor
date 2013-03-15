@@ -1,6 +1,8 @@
 $(function(){
 
-	var contador = 0;
+	var contador1 = 0;
+	var contador2 = 0;
+
 	var listaImoveisDinamica = 0;
 	
 	var listaImoveisVenda = $('#imoveisVenda ul.listaImoveis > li').length;
@@ -14,14 +16,14 @@ $(function(){
 	/* =================== seta a posição de cada li ========================= */
 	var v;
 	for(v=0; v<=listaImoveisVenda; v++){
-		$('ul.listaImoveis > li').eq(v).css('left',222*v + (v*18));
+		$('#imoveisVenda ul.listaImoveis > li').eq(v).css('left',222*v + (v*18));
 	}
 	var a;
 	for(a=0; a<=listaImoveisAluga; a++){
-		$('ul.listaImoveis > li').eq(a).css('left',222*a + (a*18));
+		$('#imoveisAluga ul.listaImoveis > li').eq(a).css('left',222*a + (a*18));
 	}
 
-	$('#conteudo').delegate(".controle","click", function(e){
+	$('#conteudo #imoveisVenda').delegate(".controle","click", function(e){
 		e.preventDefault();
 		
 		var posicaoUltimo = parseInt($('#imoveisVenda ul.listaImoveis > li:last-child').attr('style').replace('left:','').replace('px;',''));
@@ -29,8 +31,8 @@ $(function(){
 		/*console.log(posicaoPrimeiro);*/
 
 		if($(this).hasClass('next')){
-			contador++;
-			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador * 222 - (contador *18)},500, function(){
+			contador1++;
+			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador1 * 222 - (contador1 *18)},500, function(){
 			var clonado = $('#imoveisVenda ul.listaImoveis > li').eq(0).clone();
 			$('#imoveisVenda ul.listaImoveis > li').eq(0).remove();
 			$('#imoveisVenda ul.listaImoveis').append(clonado);
@@ -39,15 +41,42 @@ $(function(){
 			
 		}
 		else{
-			contador--;
-			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador * 222 - (contador *18)},500);
+			contador1--;
+			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador1 * 222 - (contador1 *18)},500);
 			var clonado = $('#imoveisVenda ul.listaImoveis > li:last-child').clone();
 			$('#imoveisVenda ul.listaImoveis > li:last-child').remove();
 			$('#imoveisVenda ul.listaImoveis').prepend(clonado);
 			$('#imoveisVenda ul.listaImoveis > li:first-child').css('left',posicaoPrimeiro - 240);
 		}
 
+	});
 
+	
+	$('#conteudo #imoveisAluga').delegate(".controle","click", function(e){
+		e.preventDefault();
+		
+		var posicaoUltimo = parseInt($('#imoveisAluga ul.listaImoveis > li:last-child').attr('style').replace('left:','').replace('px;',''));
+		var posicaoPrimeiro = parseInt($('#imoveisAluga ul.listaImoveis > li:first-child').attr('style').replace('left:','').replace('px;',''));
+		/*console.log(posicaoPrimeiro);*/
+
+		if($(this).hasClass('next')){
+			contador2++;
+			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador2 * 222 - (contador2 *18)},500, function(){
+			var clonado = $('#imoveisAluga ul.listaImoveis > li').eq(0).clone();
+			$('#imoveisAluga ul.listaImoveis > li').eq(0).remove();
+			$('#imoveisAluga ul.listaImoveis').append(clonado);
+			$('#imoveisAluga ul.listaImoveis > li:last-child').css('left',posicaoUltimo + 240);
+			});
+			
+		}
+		else{
+			contador2--;
+			$(this).parent().children('ul.listaImoveis').animate({'margin-left':-contador2 * 222 - (contador2 *18)},500);
+			var clonado = $('#imoveisAluga ul.listaImoveis > li:last-child').clone();
+			$('#imoveisAluga ul.listaImoveis > li:last-child').remove();
+			$('#imoveisAluga ul.listaImoveis').prepend(clonado);
+			$('#imoveisAluga ul.listaImoveis > li:first-child').css('left',posicaoPrimeiro - 240);
+		}
 
 	});
 

@@ -1,0 +1,122 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+	color: #068592;
+	margin-bottom: 25px;
+}
+#conteudo h3{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'latoitalic';
+	color: #068592;
+	margin-top: 30px;
+	letter-spacing: -1px;
+}
+#conteudo p{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #666666;
+}
+#conteudo ul li{
+	background: url("../imagens/seta-faq-fechado.jpg") no-repeat scroll 900px 35px #FFFFFF;
+	width: 895px;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 22px 0;
+	font-family: 'latoitalic';
+	font-size: 22px;
+	color: #666666;
+	padding-right: 45px;
+	margin-bottom: 4px;
+}
+#conteudo ul li.atv{
+	background: url("../imagens/seta-faq-aberto.jpg") no-repeat scroll 900px 35px #FFFFFF !important;
+}
+#conteudo ul li.destaque{
+	background: url("../imagens/seta-faq-fechado-destaque.jpg") no-repeat scroll 900px 35px #FFFFFF !important;
+	color: #068592 !important;
+}
+#conteudo ul li.destaque.atv{
+	background: url("../imagens/seta-faq-aberto-destaque.jpg") no-repeat scroll 900px 35px #FFFFFF !important;
+}
+#conteudo ul li h4{
+	text-align: center;
+	cursor: pointer;
+	font-size: 22px;
+}
+#conteudo ul li p{
+	margin-left: 22px;
+	display: none;
+}
+#conteudo h5{
+	font-family: 'latoitalic';
+	font-size: 20px;
+	color: #666666;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#conteudo .feedback{
+	margin: 100px 0 0 0;
+	display: none;
+}
+#conteudo .formContato{
+	position: relative;
+	width: 612px;
+	margin: 15px auto 0 auto;
+}
+#conteudo .formContato input[type="text"]{
+	background: #f3f3f3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #666666;
+	margin-right: 10px;
+	width: 270px;
+	text-transform: none;
+}
+#conteudo .formContato input[type="text"]:focus{
+	background: #e4eaeb;
+	color: #068592;
+}
+#conteudo .formContato textarea{
+	background: #f3f3f3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 582px;
+	height: 85px;
+	margin-top: 10px;
+	font-family: 'latoitalic';
+	font-size: 14px;
+	padding: 10px;
+	color: #999999;
+}
+#conteudo .formContato textarea:focus{
+	background: #e4eaeb;
+	color: #068592;
+}
+#conteudo .formContato input.enviar{
+	background: url("../imagens/btn-enviar-faq.png") repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 41px;
+    width: 112px;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+
+#conteudo #login{
+	margin-top: 185px;
+}
+#conteudo #login .redesLogin a.perguntasFrequentes {
+    background: url("../imagens/img-perguntas-frequentes.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 163px;
+}
