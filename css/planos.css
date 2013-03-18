@@ -1,0 +1,164 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+	color: #068592;
+	font-family: 'latobold_italic';
+}
+#conteudo h3{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'latoitalic';
+	color: #666666;
+	margin-top: 10px;
+}
+
+/* header escolha */
+#conteudo .headerEscolha{
+	position: relative;
+	width: 940px;
+	height: 158px;
+	margin-top: 20px;
+}
+#conteudo .headerEscolha .escolha{
+	width: 467px;
+	float: left;
+	height: 100%;
+	color: #333333;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+#conteudo .headerEscolha .escolha .txt{
+	float: left;
+}
+#conteudo .headerEscolha .escolha .txt p{
+	color: #666666;
+	font-family: 'latoitalic';
+	font-size: 16px;
+}
+#conteudo .headerEscolha .escolha .txt h4{
+	font-size: 24px;
+	font-family: 'latoitalic';
+}
+#conteudo .headerEscolha .escolha .alinhaVertical{
+	display: table-cell;
+	vertical-align: middle;
+	height: 158px;
+}
+#conteudo .headerEscolha .escolha span.icon{
+	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 0 transparent;
+	width: 120px;
+	height: 120px;
+	position: relative;
+	float: left;
+	margin: 0 7px 0 19px
+}
+#conteudo .headerEscolha .escolha span.icon.atv{
+	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 -120px transparent;
+}
+#conteudo .headerEscolha .escolha.atv{
+	background: #ffffff;
+}
+
+/* conteudo escolha */
+#conteudo .conteudoEscolha{
+	background: #ffffff;
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+	border-bottom: 1px solid #bababa;
+	width: 936px;
+	padding: 50px 0 75px 0;
+	float: left;
+}
+#conteudo .conteudoEscolha h2{
+	font-size: 53px;
+	letter-spacing: -1px;
+}
+#conteudo .conteudoEscolha span.destq{
+	font-family: 'latoblack_italic';
+}
+#conteudo .conteudoEscolha .tabela{
+	position: relative;
+	width: 685px;
+	margin: 0 auto;
+	font-family: 'latoitalic';
+}
+#conteudo .conteudoEscolha .tabela table{
+	color: #666666;
+	font-size: 13px;
+}
+#conteudo .conteudoEscolha .tabela table tr th{
+	border-left: 1px solid #ffffff;
+}
+#conteudo .conteudoEscolha .tabela table tr td{
+	height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	border-left: 1px solid #ffffff;
+}
+#conteudo .conteudoEscolha .tabela table tr td.first{
+	width: 187px;
+	text-align: right;
+	padding-right: 13px;
+}
+
+
+
+/* =============== corretor ================== */
+#conteudo .headerEscolha .escolha.corretor.atv{
+	color: #068592;
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+}
+#conteudo .headerEscolha .escolha.corretor span.icon{
+	background-position: 0 0; 
+}
+#conteudo .headerEscolha .escolha.corretor.atv span.icon{
+	background-position: 0 -121px; 
+}
+
+#conteudo .conteudoEscolha .atvCorretor .tabela table tr td.first{
+	color: #068592;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+
+
+/* =============== imobiliaria ================== */
+#conteudo .headerEscolha .escolha.imobiliaria.atv{
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+	color: #3b9810;
+}
+#conteudo .headerEscolha .escolha.imobiliaria span.icon{
+	background-position: -122px 0; 
+}
+#conteudo .headerEscolha .escolha.imobiliaria.atv span.icon{
+	background-position: -123px -121px;
+}
+#conteudo .conteudoEscolha .atvImobiliaria{
+	display: none;
+}
+#conteudo .conteudoEscolha .atvImobiliaria .tabela table tr td.first{
+	color: #3B9810;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+#conteudo #login{
+	margin-top: 185px;
+}
+#conteudo #login .redesLogin a.perguntasFrequentes {
+    background: url("../imagens/img-perguntas-frequentes.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 163px;
+}
