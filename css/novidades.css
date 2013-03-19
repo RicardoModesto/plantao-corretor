@@ -1,0 +1,56 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+	color: #068592;
+	margin-bottom: 45px;
+}
+#conteudo h3{
+	font-size: 24px;
+	font-family: 'latoitalic';
+	color: #666666;
+	letter-spacing: -1px;
+	border-bottom: 1px dotted #e1e1e1;
+	padding-bottom: 10px;
+}
+#conteudo p{
+	margin-top: 17px;
+	font-size: 16px;
+	color: #999999;
+}
+#conteudo h4{
+	color: #068592;
+	font-size: 18px;
+	font-family: 'latoitalic';
+	margin-top: 30px;
+}
+
+#conteudo .colunaLista{
+	position: relative;
+	float: left;
+	width: 560px;
+}
+#conteudo .colunaLista .img{
+	float: left;
+	width: 220px;
+	margin-right: 10px;
+}
+#conteudo .colunaLista .txts{
+	float: left;
+	width: 325px;
+}
+
+#conteudo #login{
+	margin-top: 185px;
+}
+#conteudo #login .redesLogin a.perguntasFrequentes {
+    background: url("../imagens/img-perguntas-frequentes.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 163px;
+}
