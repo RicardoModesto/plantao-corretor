@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/area-corretor-perfil.css" />
+<link rel="stylesheet" type="text/css" href="css/area-corretor-perfil-alterar-dados.css" />
+
+<script type="text/javascript" src="js/jquery-v1.8.3.js"></script>
+<script type="text/javascript" src="js/area-corretor-perfil.js"></script>
+</head>
+
+<body>
+
+	<div id="geral">
+	<div class="logado"> <!-- Essa div só aparece quando o corretor fizer login-->
+		<div class="centraliza">
+			<img src="imagens/thumb-logado.jpg" />
+			<p>Felipe Victor Alves</p>
+			<ul>
+				<li>
+					<a href="#" class="cadastre">Cadastre seu imóvel</a>
+				</li>
+				<li>
+					<a href="#" class="alterar">Alterar dados</a>
+				</li>
+				<li>
+					<a href="#" class="sair">Sair</a>
+				</li>
+			</ul>
+		</div>
+	</div><!-- fim logado -->
+
+	<div class="perfil">
+		<div class="centraliza">
+			<div class="left">
+				<a class="trocarImagem" href="#"></a>
+					<img src="imagens/img-corretor.jpg"  class="imgPerfil"/>
+					<h2>Marque as redes sociais que você utiliza</h2>
+					<ul>
+						<a href="#" rel="facebook"></a>
+						<li class="facebook"><span></span>Facebook
+							<input autofocus type="text" placeholder="Cole aqui a URL do seu Perfil nesta Rede Social"/>
+						</li>
+						<a href="#" rel="twitter"></a>
+						<li class="twitter"><span></span>Twitter
+							<input autofocus type="text" placeholder="Cole aqui a URL do seu Perfil nesta Rede Social"/>
+						</li>
+						<a href="#" rel="linkedin"></a>
+						<li class="linkedin"><span></span>Linkedin
+							<input autofocus type="text" placeholder="Cole aqui a URL do seu Perfil nesta Rede Social"/>
+						</li>
+					</ul>
+			</div>
+
+			<div class="right">
+					<h1>Alterar Dados</h1>
+						<form action="#">
+								<h2>Dados Pessoais</h2>
+								<input type="text" placeholder="Nome Completo"/>
+								<input type="text" placeholder="CRECI" />
+								<input type="text" placeholder="E-mail" />
+								<input type="text" placeholder="Telefone de Contato 1" class="telefone1" />
+								<input type="text" placeholder="Telefone de Contato 2" class="telefone2" />
+								<h2>Texto pessoal</h2>
+								<textarea placeholder="Sobre mim"></textarea>
+								<h2>Endereço</h2>
+								<input type="text" placeholder="Endereço"/>
+								<input type="text" placeholder="Bairro" class="bairro" />
+								<input type="text" placeholder="Cidade" class="cidade"/>
+								<input type="text" placeholder="Estado" class="estado" />
+								<h2>Alterar Senha</h2>
+								<input type="password" placeholder="Senha Antiga" class="antiga"/>
+								<input type="password" placeholder="Nova Senha" class="nova"/>
+								<input type="password" placeholder="Confirmar Senha" class="confirmar"/>
+							<a href="#" class="salvar">Salvar alterações</a>
+					    </form>
+			</div>
+
+			<div class="rodape">
+				<div class="boxBranco">
+					<p>Nome do Corretor. Todos os direitos reservados.</p>
+					<img src="imagens/inoltz.png" />
+				</div>
+			</div><!-- fim rodapé -->
+
+			
+		</div><!-- fim centraliza -->
+	</div><!-- fim perfil -->
+
+
+	</div> <!-- fim geral -->
+</body>
+
+</html>

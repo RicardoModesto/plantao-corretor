@@ -1,0 +1,120 @@
+ #geral .cadastro {
+    margin-top: 30px;
+}
+#geral .cadastro h1{
+ 	 color: #068592;
+    float: left;
+    font-size: 40px;
+    font-weight: 100;
+    margin-right: 15px;
+    margin-bottom: 20px;
+ } 
+#geral .cadastro a.salvar{
+	background: url("../imagens/bt-salvar-alteracoes.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 101px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 350px;
+}
+#geral .cadastro a.mais{
+	background: url("../imagens/bt-mais.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 42px;
+    text-indent: -9999px;
+    width: 42px;
+}
+#geral .cadastro a.enviar{
+	background: url("../imagens/enviar-fotos-imovel.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 56px;
+    text-indent: -9999px;
+    width: 465px;
+    margin-bottom: 10px;
+}
+#geral .cadastro form input {
+    background-color: #fff;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F2F2F2 inset;
+    color: #666666;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    height: 42px;
+    margin-bottom: 7px;
+    padding-left: 5px;
+    width: 940px;
+}
+#geral .cadastro form textarea {
+  background-color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F2F2F2 inset;
+    color: #666666;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    height: 122px;
+    margin-bottom: 5px;
+    padding: 5px;
+    resize: none;
+    width: 935px;
+}
+#geral .cadastro  form input:focus, 
+#geral .cadastro  form textarea:focus{
+	background-color: #E7EDEE;
+	color: #068592;
+	outline: none;
+}
+#geral .cadastro h3{
+	font-size: 18px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+#geral .cadastro form > div{
+	margin-top: 30px;
+}
+#geral .cadastro div .envio input{
+	width: 334px;
+}
+#geral .cadastro div .envio .left > span{
+	background: url("../imagens/excluir-imagem.png") no-repeat scroll 435px center #EBEBEB;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 0 #CCCCCC;
+    height: 52px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    text-align: center;
+    width: 465px;
+    position: relative;
+    display: block;
+}
+#geral .cadastro div .envio .left > span img{
+	 left: -20px;
+    position: relative;
+    top: -3px;
+    vertical-align: top;
+    width: 52px;
+    height: 52px;
+}
+#geral .cadastro div .envio .left > span a{
+	 height: 25px;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    width: 23px;
+}
+#geral .cadastro div .envio .left{
+	display: inline-table;
+	margin-right: 15px;
+	float: left;
+}
+#geral .cadastro div .envio .right{
+	display: inline-table;
+	float: left;
+}
+#geral .cadastro div .envio .right input{
+	width: 460px;
+}

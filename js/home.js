@@ -80,4 +80,19 @@ $(function(){
 
 	});
 
+
+	/* ================== abas  ================== */
+	var abasHome = '#geral #header .boxBusca ul.abas';
+	var conteudoHome = 'ul.boxDestaque';
+	$(conteudoHome + ' li').hide();
+	$(conteudoHome + ' li:first-child').show();
+		
+	$(abasHome + ' a').click(function(e){
+		e.preventDefault();
+		$(abasHome + ' a').removeClass('active');
+		$(this).addClass('active');	
+		$(conteudoHome + ' li').hide();	
+		$(conteudoHome +  ' ' + $(this).attr('href')).show();
+	});
+
 });

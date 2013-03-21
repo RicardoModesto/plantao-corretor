@@ -227,6 +227,49 @@ body{
      background: url(../imagens/bg-selecao.png) no-repeat scroll 0 0; 
      color: #fff;
 }
+#geral #header .redesSociais{
+    background: url("../imagens/bg-rede-social.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 44px;
+    left: 695px;
+    position: absolute;
+    top: 202px;
+    width: 255px;
+}
+#geral #header .redesSociais li a{
+ text-indent: -99999px;
+ line-height: 0;
+ font-size: 0;
+}
+#geral #header .redesSociais span{
+    color: #B9B9B9;
+    display: inline-block;
+    font-family: 'latoitalic';
+    font-size: 16px;
+    left: 26px;
+    position: relative;
+    top: -35px;
+}
+#geral #header .redesSociais ul{
+    display: inline-block;
+    left: 70px;
+    position: relative;
+    top: -9px;
+}
+
+#geral #header .redesSociais li a.facebook{
+     background: url("../imagens/spt-redes.jpg") no-repeat scroll 0 0 transparent;
+     width: 69px;
+     height: 42px;
+     display: inline-block;
+}
+#geral #header .redesSociais li a.twitter{
+     background: url("../imagens/spt-redes.jpg") no-repeat scroll 0 0 transparent;
+          width: 69px;
+     height: 42px;
+     display: inline-block;
+}
+
 #geral #header .boxBusca{
     background: url(../imagens/bg-box-busca.jpg) no-repeat scroll 0 0; 
     width: 920px;
@@ -250,39 +293,98 @@ body{
 span.destq{
     font-family: 'latoitalic';
 }
-#geral #header .boxBusca ul{
+#geral #header .boxBusca ul.abas{
     float: left;
     margin: 25px 0 0 35px;
+     font-family: 'latoitalic';
 }
-#geral #header .boxBusca ul li{
+#geral #header .boxBusca ul.abas li{
     float: left;
     margin-left: -22px;
 }
-#geral #header .boxBusca ul li a{
-    background: url(../imagens/spt-filtro.png) no-repeat scroll 0 0; 
+#geral #header .boxBusca ul.abas li a{
     display: block;
-    text-indent: -9999px;
     height: 45px;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
 }
-#geral #header .boxBusca ul li a.transacao{
-    background-position: 0 0;
-    width: 158px;
+#geral #header .boxBusca ul.abas li a:hover{
+    color: #068592;
 }
-#geral #header .boxBusca ul li a.tipo{
-    background-position: -156px 0;
-    width: 99px;
+#geral #header .boxBusca ul.abas li a.active{
+    color: #068592;
 }
-#geral #header .boxBusca ul li a.bairro{
-    background-position: -253px 0;
-    width: 113px;
+#geral #header .boxBusca ul.abas li a.transacao{
+      background: url(../imagens/transacao.png) no-repeat scroll 0 0 transparent;
+    left: 386px;
+    padding-left: 37px;
+    padding-top: 14px;
+    position: absolute;
+    top: 24px;
+    width: 116px;
 }
-#geral #header .boxBusca ul li a.quartos{
-    background-position: -365px 0;
-    width: 130px;
+#geral #header .boxBusca ul.abas li a.transacao.active{
+      background: url(../imagens/transacao-ativo.png) no-repeat scroll 0 0 transparent;
+      z-index: 1;
 }
-#geral #header .boxBusca ul li a.preco{
-    background-position: -494px 0;
-    width: 107px;
+#geral #header .boxBusca ul.abas li a.tipo.active{
+      background: url(../imagens/tipo-ativo.png) no-repeat scroll 0 0 transparent;
+      z-index: 1;
+      left: 520px;
+}
+#geral #header .boxBusca ul.abas li a.bairro.active{
+      background: url(../imagens/bairro-ativo.png) no-repeat scroll 0 0 transparent;
+      z-index: 1;
+}
+#geral #header .boxBusca ul.abas li a.quartos.active{
+      background: url(../imagens/quartos-ativo.png) no-repeat scroll 0 0 transparent;
+      z-index: 1;
+      left: 694px;
+}
+#geral #header .boxBusca ul.abas li a.preco.active{
+      background: url(../imagens/preco-ativo.png) no-repeat scroll 0 0 transparent;
+      z-index: 1;
+}
+#geral #header .boxBusca ul.abas li a.tipo{
+    left: 516px;
+    padding-left: 37px;
+    padding-top: 14px;
+    position: absolute;
+    top: 24px;
+    width: 64px;
+    z-index: 0;
+     background: url(../imagens/tipo.png) no-repeat scroll 0 0; 
+}
+#geral #header .boxBusca ul.abas li a.bairro{
+     left: 597px;
+    padding-left: 37px;
+    padding-top: 14px;
+    position: absolute;
+    top: 24px;
+    width: 77px;
+    z-index: 0;
+     background: url(../imagens/bairro.png) no-repeat scroll 0 0; 
+}
+#geral #header .boxBusca ul.abas li a.quartos{
+     left: 689px;
+    padding-left: 37px;
+    padding-top: 14px;
+    position: absolute;
+    top: 24px;
+    width: 96px;
+    z-index: 0;
+     background: url(../imagens/quartos.png) no-repeat scroll 0 0; 
+}
+#geral #header .boxBusca ul.abas li a.preco{
+     background: url("../imagens/preco.png") no-repeat scroll 0 0 transparent;
+    left: 805px;
+    padding-left: 37px;
+    padding-top: 14px;
+    position: absolute;
+    top: 24px;
+    width: 115px;
+    z-index: 0;
 }
 #geral #header .boxBusca .boxDestaque{
     background: #fff;
@@ -290,32 +392,114 @@ span.destq{
     width: 900px;
     float: left;
     margin-top: -5px;
-}
-#geral #header .boxBusca .boxDestaque .opcao{
-    background: url(../imagens/bg-selecao-imovel.png) no-repeat scroll 0 0;
     position: relative;
+    z-index: 100;
+}
+#geral #header .boxBusca .boxDestaque dl dt{
+  background: url("../imagens/check-bairros.png") no-repeat scroll 0 0 transparent;
+    height: 10px;
+    margin-left: 20px;
+    padding: 3px;
+    width: 10px;
+}
+#geral #header .boxBusca .boxDestaque dl {
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    height: 248px;
+    overflow: auto;
+    padding-top: 20px;
+    width: 350px;
+    display: none;
+}
+#geral #header .boxBusca .boxDestaque dl span{
+    background-color: #f4f4f4;
+}
+.checked{
+    background-position: -20px 0!important;
+}
+#geral #header .boxBusca .boxDestaque dl dd{
+ color: #666666;
+    display: inline;
+    font-family: 'latoitalic';
+    font-size: 14px;
+    left: 44px;
+    position: relative;
+    top: -14px;
+}
+
+
+
+#geral #header .boxBusca .boxDestaque .buscaTransacao{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px 25px 25px 25px;
     float: left;
-    width: 211px;
     height: 40px;
-    text-transform: uppercase;
-    margin: 22px 0 0 243px;
     line-height: 43px;
+    margin: 22px 0 0 243px;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+    padding-right: 15px;
 }
-#geral #header .boxBusca .boxDestaque .opcao.aux{
-    margin-left: 5px;
+#geral #header .boxBusca .boxDestaque .aux{
+    margin-left: 5px!important;
 }
-#geral #header .boxBusca .boxDestaque .opcao label{
+#geral #header .boxBusca .boxDestaque .buscaTipo{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+    height: 40px;
+    line-height: 43px;
+    margin: 22px 0 0 275px;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+    padding-right: 15px;
+}
+
+#geral #header .boxBusca .boxDestaque .buscaBairro{
+    margin: 22px 0 0 285px;
+    cursor: pointer;
+}
+#geral #header .boxBusca .boxDestaque .buscaQuartos{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+    height: 40px;
+    line-height: 43px;
+    margin: 22px 0 0 130px;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+    padding-right: 15px;
+}
+#geral #header .boxBusca .boxDestaque .buscaPreco{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+    height: 40px;
+    line-height: 43px;
+    margin: 22px 0 0 105px;
+    position: relative;
+    text-transform: uppercase;
+    width: auto;
+    padding-right: 15px;
+}
+
+#geral #header .boxBusca .boxDestaque label{
     font-family: 'latolight_italic';
     color: #666666;
     font-size: 14px;
+    margin-left: 5px;
 }
-#geral #header .boxBusca h3{
+#geral #header .boxBusca span.buscar{
     background: url(../imagens/legenda-buscar-imoveis.jpg) no-repeat scroll 0 0;
     width: 212px;
     height: 41px;
     text-indent: -9999px;
    clear: both;
    margin: 0 auto;
+   display: block;
 }
 
 /* estiliza o radio buttom */
@@ -611,4 +795,64 @@ span.destq{
     text-indent: -9999px;
     float: right;
     margin-top: 65px;
+}
+
+
+/* Scroll */
+
+
+#scrollBairros { 
+    width: 300px; 
+    margin: 20px 0 10px; 
+}
+#scrollBairros .viewport { 
+    width: 300px; 
+    height: 475px; 
+    overflow: hidden; 
+    position: relative; 
+}
+#scrollBairros .overview { 
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    padding: 0; 
+    margin: 0; 
+}
+#scrollBairros .scrollbar{ 
+    position: absolute; 
+    background-position: 0 0; 
+    right: 0;
+    width: 15px; 
+    z-index: 9999;
+}
+#scrollBairros .track { 
+    height: 100%; 
+    width:13px; 
+    position: relative; 
+    padding: 0 1px; 
+}
+#scrollBairros .thumb { 
+    background: transparent url(../imagens/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+    height: 20px; 
+    width: 6px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+    left: -5px; 
+}
+#scrollBairros .thumb .end { 
+    background: transparent url(../imagens/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+    overflow: hidden; 
+    height: 5px; 
+    width: 6    px; 
+}
+#scrollBairros .disable { display: none; }
+.noSelect { 
+    user-select: none; 
+    -o-user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
 }

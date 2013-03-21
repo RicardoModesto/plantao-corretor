@@ -4,12 +4,51 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>index</title>
 <link rel="stylesheet" type="text/css" href="css/base.css" />
-<link rel="stylesheet" type="text/css" href="css/area-corretor.css" />
+<link rel="stylesheet" type="text/css" href="css/area-corretor-perfil.css" />
+
 
 <script type="text/javascript" src="js/jquery-v1.8.3.js"></script>
+<script type="text/javascript" src="js/area-corretor-perfil.js"></script>
+<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
 </head>
 
 <body>
+
+	<div class="overlay">
+		<div class="modalChat">
+			<a href="#"><img src="imagens/bt-sair.jpg" class="fechar" /></a>
+			<h4>Corretor</h4>
+			<span>Felipe Victor Alves</span>
+			<img src="imagens/btn-online.png" class="status"/><!-- Se estiver offline, btn-offline.png -->
+			<div class="boxConversa">
+				<dl class="corretor">
+					<dt>Felipe Victor Alves</dt>
+					<dd>Olá, em  que posso ajudar?</dd>
+				</dl>
+				<dl class="visitante">
+					<dt>Visitante</dt>
+					<dd>Gostaria de conhecer aquele apartamento de quatro quartos na zona sul que você está vendendo.</dd>
+				</dl>
+				<dl class="corretor">
+					<dt>Felipe Victor Alves</dt>
+					<dd>Um momento, por favor.</dd>
+				</dl>
+				<dl class="visitante">
+					<dt>Visitante</dt>
+					<dd>Ok.</dd>
+				</dl>
+
+				<p>Felipe está digitando...</p>
+
+			</div>
+			<div class="boxDigita">
+				<textarea autofocus></textarea>
+				<a class="enviar" href="#">Enviar</a>
+			</div>
+		</div>
+	</div> <!-- fim overlay -->
+
+
 	<div id="geral">
 	<div class="logado"> <!-- Essa div só aparece quando o corretor fizer login-->
 		<div class="centraliza">
@@ -27,17 +66,517 @@
 				</li>
 			</ul>
 		</div>
-	</div><!-- fim logadi -->
+	</div><!-- fim logado -->
 
 	<div class="perfil">
 		<div class="centraliza">
-			<img src="imagens/img-corretor.jpg" />
+			<div class="topo">
+				<img src="imagens/img-corretor.jpg"  class="imgPerfil"/>
+				<div>
+					<h1>Felipe Victor Alves</h1>
+					<ul class="redes-sociais">
+						<li><a class="facebook" href="#">Facebook</a></li>
+						<li><a class="twitter" href="#">Twitter</a></li>
+						<li><a class="linkedin" href="#">Linkedin</a></li>
+					</ul>
+				</div>
+				<span class="creci">13490-90</span>
+			</div><!-- fim topo -->
+			
+
+			<div class="boxAbas">
+
+				<span class="abasPerfil">
+					<a href="#aba1" class="informacoes selected">Informações de Contato</a>
+					<a href="#aba2" class="chat">Chat
+						<img src="imagens/btn-offline.png" style="vertical-align: middle;" />
+					</a> <!-- Se estiver on: imagens/btn-online.png -->
+					<a href="#aba3" class="email">Mande um E-mail</a>
+					<a href="#aba4" class="sobre">Sobre Mim</a>
+				</span>
+				
+				<ul class="conteudo">
+				
+					<li id="aba1">
+						<dl>
+							<dt class="telefone">Telefone</dt>
+							<dd>71 8658.8758</dd>
+							<dd>71 2358.3458</dd>
+						</dl>
+						<dl>
+							<dt class="email">E-mail</dt>
+							<dd>contato@felipevictoralves.com.br</dd>
+						</dl>
+						<dl>
+							<dt class="endereco">Endereço</dt>
+							<dd>Avenida Antônio Carlos Magalhães, 2501
+							Atlantic Empresarial</br>
+							Salvador - BA, 40280-000
+							</dd>
+						</dl>
+					</li>
+					
+					<li id="aba2"></li>
+					
+					<li id="aba3">
+						<form action="#">
+							<div>
+								<input type="text" placeholder="Nome Completo"/>
+								<input type="text" placeholder="E-mail" />
+								<input type="text" placeholder="DDD" class="ddd"/>
+								<input type="text" placeholder="Celular" class="celular" />
+							</div>
+							<textarea placeholder="Mensagem"></textarea>
+							<a href="#" class="enviar">Enviar</a>
+						</form>
+					</li>
+
+					<li id="aba4">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+						<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+					</li>
+				</ul>
+
+			</div><!-- fim box-abas -->
+
+
+			<div class="imoveis">
+				<h2><span class="bg"></span>Encontre seu <span>Imóvel</span></h2>
+				<div class="box">
+					<ul class="listaImoveis" style="display: inline-block;">
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+						<span class="seloNovo"></span>
+							<ul class="infos">
+									<li>
+										<span class="esquerda">
+											bairro
+										</span>
+										<span class="direita">
+											Rio Vermelho
+										</span>
+									</li>
+									<li>
+										<span class="esquerda">
+											Aluguel
+										</span>
+										<span class="direita">
+											R$ 700.450,00
+										</span>
+									</li>
+									<li>
+										<span class="esquerda">
+											Quartos
+										</span>
+										<span class="direita">
+											4 quartos
+										</span>
+									</li>
+								</ul>
+							</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+						<img class="fotoImovel" src="imagens/exempl-imovel.jpg">
+							<ul class="infos">
+								<li>
+									<span class="esquerda">
+										bairro
+									</span>
+									<span class="direita">
+										Rio Vermelho
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Aluguel
+									</span>
+									<span class="direita">
+										R$ 700.450,00
+									</span>
+								</li>
+								<li>
+									<span class="esquerda">
+										Quartos
+									</span>
+									<span class="direita">
+										4 quartos
+									</span>
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<div class="paginacao">
+						<ul>
+							<a href="#" class="next"></a>
+							<a href="#" class="prev"></a>
+							<li  class="active">1</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- fim imoveis -->
+
+
+			<div class="rodape">
+				<div class="email">
+					<h2>Mande um e-mail</h2>
+					<form action="#">
+						<div>
+							<input type="text" placeholder="Nome Completo" value=""/>
+							<input type="text" placeholder="E-mail" value=""/>
+						</div>
+						<textarea placeholder="Digite sua mensagem"></textarea>
+						<a href="#" class="enviar">Enviar</a>
+					</form>
+				</div>
+				<div class="twitter">
+					<h2>Twitter</h2>
+					<a href="#"><img src="imagens/twitter-rodape.png" /></a>
+					<ul>
+						<li>
+							<p class="nick">Felipe Victor <a href="#">@felipevictor</a></p>
+							<p class="tweet">Desejo um bom final de semana a todos e um feliz Natal e Prospero Ano Novo,e que todos os seus sonhos se realizem...</p>
+							<span>20 min. atrás</span>
+						</li>
+						<li>
+							<p class="nick">Felipe Victor <a href="#">@felipevictor</a></p>
+							<p class="tweet">Desejo um bom final de semana a todos e um feliz Natal e Prospero Ano Novo,e que todos os seus sonhos se realizem...</p>
+							<span>20 min. atrás</span>
+						</li>
+					</ul>
+				</div>
+				<div class="facebook last">
+					<h2>Facebook</h2>
+					<ul>
+						<li>
+							<a href="#">Felipe Victor</a>
+							<p class="post">Desejo um bom final de semana a todos e um feliz Natal e Prospero Ano Novo,e que todos os seus sonhos se realizem...</p>
+						</li>
+						<li>
+							<a href="#">Felipe Victor</a>
+							<p class="post">Desejo um bom final de semana a todos e um feliz Natal e Prospero Ano Novo,e que todos os seus sonhos se realizem...</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="boxBranco">
+					<p>Nome do Corretor. Todos os direitos reservados.</p>
+					<img src="imagens/inoltz.png" />
+				</div>
+
+			</div><!-- fim rodapé -->
+
+
+			
 		</div><!-- fim centraliza -->
 	</div><!-- fim perfil -->
 
 
 	</div> <!-- fim geral -->
-
 </body>
 
 </html>

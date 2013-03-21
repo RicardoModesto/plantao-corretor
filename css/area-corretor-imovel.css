@@ -1,0 +1,282 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border:0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+    background-color: #e8e8e8;
+    font-family: 'latoitalic';
+}
+table{
+	border-collapse: collapse;
+}
+#geral .imoveis .box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#geral .imoveis .box {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 3px #DDDDDD;
+    height: auto;
+    padding: 20px;
+    width: 900px;
+    display: inline-table;
+    position: relative;
+}
+#geral .imoveis .box img.verImoveis{
+	float: right;
+}
+#geral .imoveis .box .leftTop{
+ display: inline-block;
+    margin-top: 20px;
+    width: 350px;
+}
+#geral .imoveis .box .rightTop{
+    float: right;
+    margin-top: 15px;
+    width: 540px;
+    margin-left: 10px;
+}
+#geral .imoveis .box h3{
+	color: #068592;
+	text-transform: uppercase;
+	font-family: 'latolight_italic';
+	font-weight: 100;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#geral .imoveis .box p{
+	color: #666666;
+	font-size: 14px;
+	font-family: 'latolight_italic';
+	line-height: 20px;
+}
+#geral .imoveis .box span.preco{
+	color: #666666;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'latolight_italic';
+	display: block;
+}
+#geral .imoveis .box span.parcelas{
+	color: #666666;
+	font-size: 13px;
+	font-family: 'latolight_italic';
+	line-height: 20px;
+}
+#geral .imoveis .box a.chatOff{
+	background: url(../imagens/fale-chat-off.jpg)0 0 no-repeat transparent;
+	display: inline-block;
+	width: 353px;
+	height: 85px;
+	 text-indent: -99999px;
+	line-height: 0;
+	font-size: 0;
+	margin-top: 10px;
+	cursor: default;
+}
+#geral .imoveis .box a.chatOn{
+	background: url(../imagens/fale-chat-on.png)0 0 no-repeat transparent;
+	display: inline-block;
+	width: 353px;
+	height: 85px;
+	 text-indent: -99999px;
+	line-height: 0;
+	font-size: 0;
+	margin-top: 10px;
+}
+#geral .imoveis .box a.email{
+	background: url(../imagens/envie-email.png) 0 0 no-repeat transparent;
+	display: inline-block;
+	width: 354px;
+	height: 85px;
+	 text-indent: -99999px;
+	line-height: 0;
+	font-size: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#geral .imoveis .box .leftBottom{
+    float: left;
+    width: 515px;
+    margin-bottom: 20px;
+}
+#geral .imoveis .box .rightBottom{
+	  float: right;
+    width: 370px;
+    position: relative;
+    top: -120px;
+    margin-bottom: 20px;
+}
+#geral .imoveis .box .leftBottom ul li{
+ 	color: #666666;
+	font-size: 14px;
+	font-family: 'latolight_italic';
+	background-color: #fafafa;
+	width: 470px;
+	margin-bottom: 2px;
+	padding: 10px;
+}
+#geral .imoveis .box .visita{
+ 	border-top: 1px solid #d9d9d9;
+ 	width: 100%;
+ 	display: inline-block;
+ 	padding-top: 30px;
+ 	margin-bottom: 10px;
+}
+#geral .imoveis .box .visita form{
+ 	width: 610px;
+ 	margin: 0 auto;
+}
+#geral .imoveis .box .visita form input {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F2F2F2 inset;
+    color: #666666;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    height: 36px;
+    margin-bottom: 13px;
+    padding-left: 5px;
+    width: 295px;
+}
+#geral .imoveis .box .visita form h2 {
+	text-align: center;
+}
+#geral .imoveis .box .visita form textarea {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 0 2px 0 #F2F2F2 inset;
+    color: #666666;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    height: 105px;
+    margin-bottom: 10px;
+    resize: none;
+    width: 608px;
+}
+#geral .imoveis .box .visita form a.enviar {
+    background: url("../imagens/bt-enviar.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    font-size: 0;
+    height: 45px;
+    line-height: 0;
+    text-indent: -99999px;
+    width: 111px;
+}
+
+#geral .imoveis .box .visita form input:focus, #geral .imoveis .box .visita form textarea:focus{
+	background-color: #E7EDEE;
+	color: #068592;
+	outline: none;
+}
+
+
+
+/*  Slider  */
+
+
+
+div.slider 
+{
+	display: inline-block;
+    height: 480px;
+    width: 540px;
+    margin-left: 20px;
+}
+
+div.slider  .overview a:hover {
+	background-color: #999; 
+	color: #fff;
+}
+div.slider  .overview a.selected {
+	outline:3px solid #068592; 
+}
+div.slider  ul.imagens{
+	display: inline-block; 
+	width: 520px;
+	height: 390px; 
+	margin-bottom: 5px;
+	position: relative;
+}
+div.slider  ul.imagens li {
+	height: 395px;
+    width: 520px;
+}
+div.slider  ul.imagens li span{
+ 	bottom: 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    color: #000;
+    background: rgba(240,240,240,0.9);
+    margin:5px;
+}
+
+#thumbsScroll { 
+    width: 520px; 
+}
+#thumbsScroll .viewport { 
+    width: 520px; 
+    height: 95px; 
+    overflow: hidden; 
+    position: relative; 
+}
+#thumbsScroll .overview { 
+ list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 992px;
+}
+#thumbsScroll .overview img { 
+ float: left; 
+ margin-right: 5px;
+}
+#thumbsScroll .scrollbar{ 
+background: url("../imagens/bg-scrollbar-track-x.png") no-repeat scroll 0 0 transparent;
+    clear: both;
+    height: 15px;
+    margin: 0 0 5px;
+    position: relative;
+}
+#thumbsScroll .track { 
+    background: url("../imagens/bg-scrollbar-track-x.png") no-repeat scroll 100% 0 transparent;
+    height: 15px;
+    position: relative;
+    width: 100%;
+}
+#thumbsScroll .thumb { 
+ background: url("../imagens/bg-scrollbar-thumb-x.png") no-repeat scroll 100% 50% transparent;
+    cursor: pointer;
+    height: 25px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -5px;
+}
+#thumbsScroll .thumb .end { 
+  background: url("../images/bg-scrollbar-thumb-x.png") no-repeat scroll 0 50% transparent;
+    height: 25px;
+    overflow: hidden;
+    width: 5px;
+}
+#thumbsScroll .disable { display: none; }
+.noSelect { 
+    user-select: none; 
+    -o-user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+}

@@ -1,0 +1,744 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border:0;
+	list-style: none;
+	text-decoration: none;
+}
+html {
+    height: 100%;
+}
+
+body{
+    font-family: 'latoitalic';
+   	background: #E7E7E8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #E7E7E8 0%, #F4F4F4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E7E7E8), color-stop(100%,#F4F4F4));
+	background: -webkit-linear-gradient(top,  #E7E7E8 0%,#F4F4F4 100%);
+	background: -o-linear-gradient(top,  #E7E7E8 0%,#F4F4F4 100%);
+	background: -ms-linear-gradient(top,  #E7E7E8 0%,#F4F4F4 100%);
+	background: linear-gradient(to bottom,  #E7E7E8 0%,#F4F4F4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7E7E8', endColorstr='#F4F4F4',GradientType=0 );
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+	border-collapse: collapse;
+}
+#geral{
+	position: relative;
+	width: 100%;
+}
+/* Quando o corretor estiver logado */
+#geral div.logado{
+	width: 100%;
+	background-color: #fff;
+	height: 50px;
+	box-shadow: 1px 3px 3px #DDDDDD;
+}
+#geral div.logado img{	
+	border: 4px solid #FFFFFF;
+    box-shadow: 1px 1px 3px #DDDDDD;
+    margin-top: 5px;
+}
+#geral div.logado p{	
+ 	color: #078594;
+    display: inline;
+    left: 10px;
+    position: relative;
+    top: -13px;
+    font-size: 16px;
+}
+#geral div.logado ul{	
+	display: inline-block;
+    left: 60px;
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+}
+#geral div.logado li{
+	float: left;
+	margin-right: 40px;
+}
+#geral div.logado li:last-child{
+	background: url("../imagens/bt-sair.jpg") no-repeat scroll right center transparent;
+    margin-left: 305px;
+    padding-right: 15px;
+}
+#geral div.logado a{
+	color: #999;
+ 	text-transform: uppercase;
+}
+#geral div.logado a.cadastre{	
+
+}
+#geral div.logado a.alterar{	
+
+}
+#geral div.logado a.sair{	
+
+}
+#geral .topo{
+	width: 690px;
+}
+
+#geral .perfil{
+	margin-top: 30px;
+}
+#geral .perfil .imgPerfil{
+	 border: 4px solid #FFFFFF;
+    box-shadow: 1px 1px 3px #DDDDDD;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+#geral .perfil img.imgPerfil {
+	 width: 210px;
+	 height: 210px;
+}
+#geral .perfil h1{
+	color: #068592;
+	font-size: 40px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 35px;
+	font-weight: 100;
+}
+#geral .perfil .redes-sociais{
+	float: left;
+}
+#geral .perfil .redes-sociais li{
+	float: left;
+}
+#geral .perfil .redes-sociais li a{
+    display: inline-block;
+    height: 36px;
+    text-indent: -999999px;
+    width: 38px;
+ }
+#geral .perfil .redes-sociais li a.facebook{
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll 0 0 transparent;
+ }
+#geral .perfil .redes-sociais li a.twitter{
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll -39px 0 transparent;
+ }
+#geral .perfil .redes-sociais li a.linkedin{ 
+ 	background: url("../imagens/redes-sociais-corretor.png") no-repeat scroll -78px 0 transparent;
+}
+#geral .perfil .creci{ 
+    background: url("../imagens/bg-creci.png") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 30px;
+    padding-left: 60px;
+    padding-top: 6px;
+    width: 138px;
+    margin-top: 5px;
+}
+
+
+
+/* Abas */
+
+#geral div.boxAbas {
+	display: inline-block;
+    font-family: 'latoitalic';
+    height: auto;
+    min-height: 150px;
+    width: 680px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#geral div.boxAbas span.abasPerfil {
+	  display: inline-block;
+    height: 47px;
+    position: relative;
+    vertical-align: bottom;
+    width: 682px;
+}
+#geral div.boxAbas span.abasPerfil a {
+ 	background-color: #F0F0F0;
+    color: #999999;
+    display: inline-block;
+    font-size: 19px;
+    margin: 0 5px 0 0;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+#geral div.boxAbas span.abasPerfil a:hover {
+	color: #068592;
+}
+#geral div.boxAbas span.abasPerfil a.selected {
+	color: #068592;
+}
+#geral div.boxAbas span.abasPerfil a.informacoes{
+	  background: url("../imagens/informacoes.png") no-repeat scroll 0 0 transparent;
+    padding-left: 23px;
+    position: absolute;
+    width: 205px;
+}
+#geral div.boxAbas span.abasPerfil a.chat{
+	  background: url("../imagens/chat.png") no-repeat scroll 0 0 transparent;
+    left: 206px;
+    padding-left: 40px;
+    position: absolute;
+    width: 160px;
+}
+#geral div.boxAbas span.abasPerfil a.email{
+  background: url("../imagens/mande-mail.png") no-repeat scroll 0 0 transparent;
+    left: 365px;
+    padding-left: 43px;
+    position: absolute;
+    width: 175px;
+ }
+#geral div.boxAbas span.abasPerfil a.sobre{
+	   background: url("../imagens/sobre-mim.png") no-repeat scroll 0 0 transparent;
+    left: 545px;
+    padding-left: 35px;
+    position: absolute;
+    width: 115px;
+}
+
+
+#geral div.boxAbas ul.conteudo {
+	background: url("../imagens/bg-abas-topo.png") no-repeat scroll center -102px transparent;
+    left: -584px;
+    margin-left: 0;
+    min-height: 150px;
+    position: relative;
+    top: -6px;
+    width: 1453px;
+
+}
+#geral div.boxAbas ul.conteudo li {
+	display: inline-block; 
+	height: auto;
+    min-height: 150px;
+    padding-left: 596px;
+    padding-top: 25px;
+    width: 660px;
+}
+
+#geral div.boxAbas ul.conteudo li#aba4 p {
+	color: #999999;
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 10px; 
+}
+#geral div.boxAbas a.off {
+	 background: url("../imagens/btn-offline.png") no-repeat scroll right center #F0F0F0;
+	 width: 119px;
+	 color: #d9d9d9!important;
+}
+#geral div.boxAbas a.off:hover {
+	 color: #d9d9d9!important;
+	 cursor: default;
+}
+#geral div.boxAbas a.on {
+	 background: url("../imagens/btn-online.png") no-repeat scroll right center #F0F0F0;
+	 width: 119px;
+}
+
+
+#geral div.boxAbas ul.conteudo li dl {
+    float: left;
+    margin-right: 20px;
+    width: 240px;
+}
+#geral div.boxAbas ul.conteudo li dl:first-child {
+   width: 140px;
+}
+#geral div.boxAbas ul.conteudo li dl:last-child {
+    margin-right: 0;
+}
+#geral div.boxAbas ul.conteudo li dt {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #068592;
+    background: none no-repeat scroll left top transparent;
+}
+#geral div.boxAbas ul.conteudo li dd {
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+#geral div.boxAbas ul.conteudo li dt.telefone {
+    background-image: url("../imagens/spt-infos-corretor.png");
+    background-position: 0 0;
+    padding-left: 30px;
+    width: 0;
+    height: 28px;
+}
+#geral div.boxAbas ul.conteudo li dt.email {
+    background-image: url("../imagens/spt-infos-corretor.png");
+     background-position: -31px 0;
+     padding-left: 30px;
+     width: 0;
+     height: 28px;
+}
+#geral div.boxAbas ul.conteudo li dt.endereco {
+    background-image: url("../imagens/spt-infos-corretor.png");
+     background-position: -61px 0;
+     padding-left: 30px;
+     width: 0;
+     height: 28px;
+}
+#geral div.boxAbas ul.conteudo form div{
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+}
+#geral div.boxAbas ul.conteudo form input{
+	border-top: 1px solid #d9d9d9;
+	width: 315px;
+	height: 34px;
+	border-radius: 4px;
+	color: #999999;
+	font-size: 15px;
+	box-shadow: 0 2px 0 #F2F2F2 inset;
+	margin-bottom: 13px;
+	font-family: 'latoitalic';
+	padding-left: 5px;
+}
+#geral div.boxAbas ul.conteudo form input.ddd{
+	margin-right: 5px;
+    width: 60px;
+}
+#geral div.boxAbas ul.conteudo form input.celular{
+	width: 241px;
+}
+#geral div.boxAbas ul.conteudo form input:focus,
+#geral div.boxAbas ul.conteudo form textarea:focus{
+	background-color: #E7EDEE;
+	color: #068592;
+	outline: none;
+}
+#geral div.boxAbas ul.conteudo form textarea{
+	border-top: 1px solid #d9d9d9;
+	width: 320px;
+	height: 78px;
+	border-radius: 4px;
+	color: #999999;
+	font-size: 15px;
+	box-shadow: 0 2px 0 #F2F2F2 inset;
+	margin-bottom: 10px;
+	resize:none;
+	font-family: 'latoitalic';
+}
+#geral div.boxAbas ul.conteudo form a.enviar{
+ 	background: url("../imagens/bt-enviar.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    font-size: 0;
+    height: 45px;
+    line-height: 0;
+    width: 111px;
+    text-indent: -99999px;
+}
+
+
+/*  Modal chat */
+
+
+.overlay{
+	background: url(../imagens/overlay.png) repeat transparent;
+	position: absolute;
+	z-index: 100;
+	display: none; 
+	width: 100%;
+	height: 100%;
+}
+.overlay .modalChat{		
+ 	background-color: #FFFFFF;
+    height: 367px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -302px;
+    margin-right: 302px;
+    top: 210px;
+    width: 584px;
+    box-shadow: 0 3px 6px #999999;
+}
+.overlay .modalChat .boxConversa{
+	background-color: #F4F4F4;
+	width: 564px;
+	height: 182px;
+	box-shadow: 0 0 8px #CCCCCC inset;
+	margin-bottom: 10px;
+	padding: 20px 10px 20px 10px;
+	overflow: auto;
+}
+.overlay .modalChat .boxDigita textarea{
+	background-color: #F4F4F4;
+	width: 463px;
+	height: 49px;
+	box-shadow: 0 0 8px #CCCCCC inset;
+	font-size: 19px;
+	color: #666666;
+	resize:none;
+	font-family: 'latoitalic';
+	padding: 5px;
+	float: left
+}
+.overlay .modalChat .boxDigita textarea:focus{
+	outline: none;
+}
+.overlay .modalChat .boxDigita a.enviar{
+	background: url("../imagens/bt-enviar-chat.png") repeat scroll 0 0 transparent;
+    float: right;
+    font-size: 0;
+    height: 59px;
+    line-height: 0;
+    text-indent: -99999px;
+    width: 111px;
+}
+.overlay .modalChat .boxConversa p{
+ 	color: #999999;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.overlay .modalChat h4{
+	text-transform: uppercase;
+	color: #666666;
+	font-size: 12px;
+	font-weight: 100;
+}
+.overlay .modalChat span{
+	color: #098193;
+    display: inline-block;
+    font-size: 19px;
+    margin-bottom: 25px;
+    position: relative;
+    top: -10px;
+    margin-right: 30px;
+}
+.overlay .modalChat img.status{
+    position: relative;
+    top: -5px;
+}
+.overlay .modalChat img.fechar{
+   float: right;
+}
+.overlay .modalChat dl{
+	margin-bottom: 10px;
+}
+.overlay .modalChat dl dt{
+	float: left; 
+	display: inline-table;
+	font-size: 14px;
+	color: #666666;
+	font-weight: 100;
+	width: 114px;
+	line-height: 35px;
+}
+.overlay .modalChat dl dd{
+	display: inline-table;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 100;
+	padding: 10px;
+	width: 415px;
+	box-shadow: 1px 1px 2px #CCCCCC;
+}
+.overlay .modalChat dl.corretor dd{
+	/*background: url(../imagens/bg-chat-corretor.png) left center no-repeat #D2FFC4; */
+	background-color: #D2FFC4; 
+	
+}
+.overlay .modalChat dl.visitante dd{
+	/*background: url(../imagens/bg-chat-visitante.png) left center no-repeat #fff; */
+	background-color: #fff;
+}
+
+
+/* Rodapé */
+
+#geral .rodape{
+	min-height: 365px;
+	display: inline-table;
+}
+
+#geral .rodape .facebook,
+#geral .rodape .twitter,
+#geral .rodape .email{
+	border-right: 1px dotted #d6d6d6;
+    float: left;
+    width: 305px;
+    min-height: inherit;
+}
+#geral .rodape .last{
+	margin-right: 0;
+	border: 0 none;
+}
+#geral .rodape > div > h2{
+	color: #068592;
+	font-size: 30px;
+	font-family: 'latolight_italic';
+	font-weight: 100;
+	margin-bottom: 20px;
+	display: inline-block;
+	margin-top: 40px;
+}
+#geral .rodape .twitter h2,
+#geral .rodape .facebook h2{
+	margin-left: 10px;
+}
+
+
+#geral .rodape .email{
+	padding-right: 20px;
+}
+#geral .rodape .email form{
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+}
+#geral .rodape .email form input{
+	border-top: 1px solid #d9d9d9;
+	width: 300px;
+	height: 36px;
+	border-radius: 4px;
+	color: #666666;
+	font-size: 15px;
+	box-shadow: 0 2px 0 #F2F2F2 inset;
+	margin-bottom: 13px;
+	font-family: 'latoitalic';
+	padding-left: 5px;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #fff;
+}
+#geral .rodape .email input:focus,
+#geral .rodape .email textarea:focus{
+	background-color: #E7EDEE;
+	color: #068592;
+	outline: none;
+}
+#geral .rodape .email textarea{
+	border-top: 1px solid #d9d9d9;
+	width: 302px;
+	height: 106px;
+	border-radius: 4px;
+	color: #666666;
+	font-size: 15px;
+	box-shadow: 0 2px 0 #F2F2F2 inset;
+	margin-bottom: 10px;
+	resize:none;
+	font-family: 'latoitalic';
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #fff;
+}
+#geral .rodape .email form a.enviar{
+ 	background: url("../imagens/bt-enviar.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    font-size: 0;
+    height: 45px;
+    line-height: 0;
+    width: 111px;
+    text-indent: -99999px;
+    margin-right: 15px;
+}
+#geral .rodape .twitter .nick{
+	color:#068592;
+	font-size: 15px;
+}
+#geral .rodape .twitter img{
+	float: right;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+#geral .rodape .twitter li{
+	border-bottom: 1px solid #D6D6D6;
+    margin: 0 10px 5px;
+    padding-bottom: 5px;
+}
+#geral .rodape .twitter li .nick a{
+	font-family: 'latolight_italic';
+	font-size: 13px;
+	color:#068592;
+}
+#geral .rodape .twitter li .tweet{
+	font-family: 'latolight_italic';
+	font-size: 15px;
+	color:#666666;
+	line-height: 20px;
+	padding-bottom: 2px;
+}
+#geral .rodape .twitter li span{
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #CCCCCC;
+}
+
+#geral .rodape .facebook li{
+	border-bottom: 1px solid #D6D6D6;
+    margin: 0 10px 5px;
+    padding-bottom: 5px;
+}
+#geral .rodape .facebook li a{
+	font-size: 15px;
+	color:#068592;
+}
+#geral .rodape .facebook li .post{
+	font-family: 'latolight_italic';
+	font-size: 15px;
+	color:#666666;
+	line-height: 20px;
+	padding-bottom: 2px;
+}
+#geral .rodape .boxBranco{
+	width: 940px;
+	height: 70px;
+	background-color: #fff;
+	display: inline-table;
+	margin-bottom: 40px;
+	box-shadow: 0 3px 3px #DDDDDD;
+	margin-top: 30px;
+}
+#geral .rodape .boxBranco p{
+ 	color: #999999;
+    font-size: 15px;
+    padding: 25px;
+    font-family: 'latolight_italic';
+    display: inline-block;
+    width: 750px;
+}
+
+
+/* Imóveis */
+
+#geral .imoveis h2 span.bg{
+    background: url("../imagens/encontre-imovel.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 47px;
+    vertical-align: sub;
+    width: 64px;
+} 
+#geral .imoveis h2 {
+   color: #068592;
+   font-size: 39px;
+   font-family: 'latolight_italic';
+   font-weight: 100;
+}     
+#geral .imoveis h2 span{
+	font-family: 'latoitalic';
+}  
+#geral .imoveis .box {
+    background-color: #FFFFFF;
+    height: 985px;
+    padding: 10px;
+    width: 920px;
+    box-shadow: 0 3px 3px #DDDDDD;
+}
+#geral .imoveis .box ul.listaImoveis li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #D3D3D2;
+    border-left: 1px solid #E8E7E7;
+    border-right: 1px solid #E8E7E7;
+    float: left;
+    height: 268px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: relative;
+    width: 210px;
+}
+
+#geral .imoveis .box ul.listaImoveis li span.seloNovo {
+    background: url("../imagens/selo-novo.png") repeat scroll 0 0 transparent;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 45px;
+}
+#geral .imoveis .box ul.listaImoveis li ul.infos li {
+    background: url("../imagens/bg-infos.listaImoveis.jpg") repeat scroll 0 0 transparent;
+    border: medium none;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 3px;
+    width: 198px;
+    padding: 2px 6px 1px;
+}
+#geral .imoveis .box ul.listaImoveis li ul.infos li span.esquerda {
+    color: #666666;
+}
+#geral .imoveis .box ul.listaImoveis li ul.infos li span.esquerda {
+    display: block;
+    float: left;
+    font-family: 'latoregular';
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    width: 50%;
+}
+#geral .imoveis .box ul.listaImoveis li ul.infos li span.direita {
+    color: #068592;
+}
+#geral .imoveis .box ul.listaImoveis li ul.infos li span.direita {
+    float: left;
+    font-family: 'latoitalic';
+    font-size: 15px;
+    text-align: right;
+    width: 50%;
+}
+#geral .imoveis .box ul.listaImoveis li:nth-child(4n+4){
+	margin-right: 0;
+}
+
+#geral .imoveis .box .paginacao{
+ background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 25px 25px 25px 25px;
+    height: 39px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    margin-top:30px;
+}
+#geral .imoveis .box .paginacao ul li{
+	float: left;
+    left: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#geral .imoveis .box .paginacao ul{
+	position: relative;
+	color: #666666;
+}
+
+#geral .imoveis .box .paginacao ul li.active{
+	color: #068592;
+}
+#geral .imoveis .box .paginacao ul a.next{
+	background: url("../imagens/setas-paginacao.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 42px;
+    left: 1px;
+    position: absolute;
+    top: -2px;
+    width: 45px;
+}
+#geral .imoveis .box .paginacao ul a.prev{
+	background: url("../imagens/setas-paginacao.png") repeat scroll 0 -45px transparent;
+    display: block;
+    height: 42px;
+    left: 141px;
+    position: absolute;
+    top: -2px;
+    width: 45px;
+}
