@@ -1,0 +1,299 @@
+#conteudo{
+	padding-top: 55px;
+}
+#conteudo h2{
+	font-size: 43px;
+	text-align: center;
+	color: #068592;
+	font-family: 'latobold_italic';
+}
+#conteudo h3{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'latoitalic';
+	color: #666666;
+	margin-top: 10px;
+}
+#conteudo h3 span.destq{
+	font-family: 'latoblack_italic';
+}
+
+/* header escolha */
+#conteudo .headerEscolha{
+	position: relative;
+	width: 940px;
+	height: 158px;
+	margin-top: 20px;
+}
+#conteudo .headerEscolha .escolha{
+	width: 467px;
+	float: left;
+	height: 100%;
+	color: #333333;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+#conteudo .headerEscolha .escolha .txt{
+	float: left;
+}
+#conteudo .headerEscolha .escolha .txt p{
+	color: #666666;
+	font-family: 'latoitalic';
+	font-size: 16px;
+}
+#conteudo .headerEscolha .escolha .txt h4{
+	font-size: 24px;
+	font-family: 'latoitalic';
+}
+#conteudo .headerEscolha .escolha .alinhaVertical{
+	display: table-cell;
+	vertical-align: middle;
+	height: 158px;
+}
+#conteudo .headerEscolha .escolha span.icon{
+	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 0 transparent;
+	width: 120px;
+	height: 120px;
+	position: relative;
+	float: left;
+	margin: 0 7px 0 19px
+}
+#conteudo .headerEscolha .escolha span.icon.atv{
+	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 -120px transparent;
+}
+#conteudo .headerEscolha .escolha.atv{
+	background: #ffffff;
+}
+#conteudo input[type="text"]{
+	background: none;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius: 4px 4px 4px 4px;
+	border-top: 1px solid #D9D9D9;
+	box-shadow: 0 2px 0 #F2F2F2 inset;
+	color: #666666;
+	font-family: 'latoitalic';
+	font-size: 15px;
+	height: 36px;
+	margin-bottom: 13px;
+	padding:0 0 0 5px;
+	width: 505px;
+	float: left;
+}
+/* conteudo escolha */
+#conteudo .conteudoEscolha{
+	background: #ffffff;
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+	border-bottom: 1px solid #bababa;
+	width: 936px;
+	padding: 50px 0 75px 0;
+	float: left;
+}
+#conteudo .conteudoEscolha h2{
+	font-size: 53px;
+	letter-spacing: -1px;
+}
+#conteudo .conteudoEscolha span.destq{
+	font-family: 'latoblack_italic';
+}
+
+#conteudo .conteudoEscolha form{
+	position: relative;
+	width: 540px;
+	margin: 40px auto 50px auto;
+}
+#conteudo .conteudoEscolha form input.menor{
+	width: 160px;
+	margin-right: 10px;
+}
+#dk_container_estado2{
+	background-color: #F5F5F5;
+	border-radius: 4px 4px 4px 4px;
+	border-bottom: 1px solid #D9D9D9;
+	height: 35px;
+	width: 160px;
+	margin: 0 !important;
+}
+.dk_container a{
+	width: 160px;
+}
+#dk_container_estado2 .dk_options{
+	width: 160px;
+}
+#dk_container_estado2 .dk_toggle{
+	font-family: 'latoitalic';
+	color: #666666;
+	font-size: 15px;
+	height: 25px;
+	line-height: 29px;
+}
+
+#conteudo .conteudoEscolha p.descricao{
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	margin-top: 8px;
+}
+#conteudo .conteudoEscolha p.descricao span.destq{
+	font-family: 'latoblack_italic';
+}
+#conteudo .conteudoEscolha .escolhaPlano{
+	position: relative;
+	width: 100%;
+	padding-top: 43px;
+	float: left;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e6e7e7;
+}
+#conteudo .conteudoEscolha .escolhaPlano a.btnDetalhes{
+	background: url("../imagens/bg-botao-detalhes.jpg") no-repeat scroll 0 0 transparent;
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+	margin-left: -94px;
+	width: 188px;
+	height: 51px;
+	font-family: 'latoitalic';
+	font-size: 16px;
+	color: #068592;
+	text-align: center;
+	padding-top: 10px;
+}
+#conteudo .conteudoEscolha .escolhaPlano a.btnDetalhes span.seta{
+	background: url("../imagens/setinhas-detalhes.jpg") no-repeat scroll 0 0 transparent;
+	width: 10px;
+	height: 6px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -5px;
+	display: block;
+}
+
+#conteudo .conteudoEscolha .escolhaPlano ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+#conteudo .conteudoEscolha .escolhaPlano .tabela{
+	position: relative;
+	width: 685px;
+	margin: 30px 0 0 20px;
+	font-family: 'latoitalic';
+	float: left;
+}
+#conteudo .conteudoEscolha .escolhaPlano .tabela table{
+	color: #666666;
+	font-size: 13px;
+}
+#conteudo .conteudoEscolha .escolhaPlano .tabela table tr td{
+	height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+#conteudo .conteudoEscolha .escolhaPlano .tabela table tr td.first{
+	width: 187px;
+	text-align: right;
+	padding-right: 13px;
+	color: #068592;
+}
+
+#conteudo .conteudoEscolha .formaPagamento{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-top: 85px;
+}
+#conteudo .conteudoEscolha .formaPagamento ul{
+	width: 636px;
+	position: relative;
+	margin: 35px auto 0 auto;
+}
+#conteudo .conteudoEscolha .formaPagamento ul li{
+	background: #fcfcfc;
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin:0 2px 2px 0;
+	border: 2px solid transparent;
+	text-align: center;
+	-moz-transition: border .5s linear;
+	-webkit-transition: border .5s linear;
+	transition: border .5s linear;
+}
+#conteudo .conteudoEscolha .formaPagamento ul li:hover{
+	background: #fff;
+	border: 2px solid #CDE7E9;
+}
+#conteudo .conteudoEscolha .formaPagamento ul li p{
+	font-family: 'latoitalic';
+	font-size: 13px;
+	color: #999999;
+	margin-top: 10px;
+}
+#conteudo .conteudoEscolha .formaPagamento ul li a{
+	width: 100px;
+	height: 78px;
+	display: block;
+	padding-top: 22px;
+}
+
+/* =============== corretor ================== */
+#conteudo .headerEscolha .escolha.corretor.atv{
+	color: #068592;
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+}
+#conteudo .headerEscolha .escolha.corretor span.icon{
+	background-position: 0 0; 
+}
+#conteudo .headerEscolha .escolha.corretor.atv span.icon{
+	background-position: 0 -121px; 
+}
+
+#conteudo .conteudoEscolha .atvCorretor h5{
+	color: #068592;
+	font-size: 22px;
+	font-family: 'latoitalic';
+	text-align: center;
+}
+
+
+
+
+/* =============== imobiliaria ================== */
+#conteudo .headerEscolha .escolha.imobiliaria.atv{
+	border-right: 1px solid #e6e7e7;
+	border-left: 1px solid #e6e7e7;
+	color: #3b9810;
+}
+#conteudo .headerEscolha .escolha.imobiliaria span.icon{
+	background-position: -122px 0; 
+}
+#conteudo .headerEscolha .escolha.imobiliaria.atv span.icon{
+	background-position: -123px -121px;
+}
+#conteudo .conteudoEscolha .atvImobiliaria{
+	display: none;
+}
+#conteudo .conteudoEscolha .atvImobiliaria .tabela table tr td.first{
+	color: #3B9810;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+#conteudo #login{
+	margin-top: 185px;
+}
+#conteudo #login .redesLogin a.perguntasFrequentes {
+    background: url("../imagens/img-perguntas-frequentes.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 163px;
+}

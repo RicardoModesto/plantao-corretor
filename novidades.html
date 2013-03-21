@@ -64,40 +64,169 @@
 					</ul>
 				</div> <!-- fim extHeader -->
 
+				<div class="redesSociais">
+					<span>Siga o Plantão<br> do Corretor</span>
+					<ul>	
+						<li>
+							<a href="#" class="facebook">facebook</a>
+						</li>
+						<li>
+							<a href="#" class="twitter">twitter</a>
+						</li>
+					</ul>
+				</div> <!-- fim redesSociais -->
+
+
 				<div class="boxBusca">
 					<h2>Encontre seu <span class="destq">Imóvel</span></h2>
 
-					<ul>
+						<ul class="abas">
 						<li>
-							<a href="#" class="transacao">transação</a>
+							<a href="#transacao" class="transacao active">Transação</a>
 						</li>
 						<li>
-							<a href="#" class="tipo">tipo</a>
+							<a href="#tipo" class="tipo">Tipo</a>
 						</li>
 						<li>
-							<a href="#" class="bairro">bairro</a>
+							<a href="#bairro" class="bairro">Bairro</a>
 						</li>
 						<li>
-							<a href="#" class="quartos">Quartos</a>
+							<a href="#quartos" class="quartos">Quartos</a>
 						</li>
 						<li>
-							<a href="#" class="preco">preço</a>
+							<a href="#preco" class="preco">Preço</a>
 						</li>
 					</ul>
 
-					<div class="boxDestaque">
-						<form action="">
-							<div class="opcao">
-								<label for="imoveisCompra">imóveis para <span class="destq">comprar</span></label>
-								<input type="radio" name="tipo" value="comprar" class="cform">
-							</div> <!-- fim opção -->
-							<div class="opcao aux">
-								<label for="imoveisAluga">imóveis para <span class="destq">alugar</span></label>
-								<input type="radio" name="tipo" value="alugar" class="cform">
-							</div> <!-- fim opção -->
-						</form>
-					</div> <!-- fim box destaque -->
-					<h3>buscar imóveis</h3>
+					<ul class="boxDestaque">
+
+							<li id="transacao">
+								<form action="">
+									<div class="buscaTransacao">
+										<label for="imoveisCompra">imóveis para <span class="destq">comprar</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>			
+									
+									<div class="buscaTransacao aux">						
+										<label for="imoveisAluga">imóveis para <span class="destq">alugar</span></label>
+										<input type="radio" name="tipo" value="alugar" class="cform">
+									</div>
+								</form>
+							</li>
+							<li id="tipo">
+								<form action="">
+									<div class="buscaTipo">
+										<label for="imoveisCompra">Apartamento</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>			
+									
+									<div class="buscaTipo aux">						
+										<label for="imoveisAluga">Casa</span></label>
+										<input type="radio" name="tipo" value="alugar" class="cform">
+									</div>
+
+									<div class="buscaTipo aux">						
+										<label for="imoveisAluga">Comercial</span></label>
+										<input type="radio" name="tipo" value="alugar" class="cform">
+									</div>
+								</form>
+							</li>
+							<li id="bairro">
+								<form action="#" class="buscaBairro">
+									<img src="imagens/select-bairros.png" class="seleciona"/>
+									<div id="scrollBairros">
+									    <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+										    <div class="viewport">
+										    <div class="overview">
+												<dl>
+													<dt></dt>
+													<dd>Lorem ipsum Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum </dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+													<dt></dt>
+													<dd>Lorem ipsum</dd>
+												</dl>
+											</div>
+									    </div>
+									</div>
+								</form>
+							</li>
+							<li id="quartos">
+								<form action="">
+									<div class="buscaQuartos">
+										<label for="imoveisCompra">1 Quarto</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>			
+									
+									<div class="buscaQuartos aux">
+										<label for="imoveisCompra">2 Quartos</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaQuartos aux">
+										<label for="imoveisCompra">3 Quartos</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaQuartos aux">
+										<label for="imoveisCompra">4 Quartos</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaQuartos aux">
+										<label for="imoveisCompra">5 Quartos ou +</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>
+								</form>
+							</li>
+							<li id="preco">
+								<form action="">
+									<div class="buscaPreco">
+										<label for="imoveisCompra">0 até 100mil</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>			
+									
+									<div class="buscaPreco aux">
+										<label for="imoveisCompra">100 até 400mil</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaPreco aux">
+										<label for="imoveisCompra">400 até 800mil</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaPreco aux">
+										<label for="imoveisCompra">800 até 1.5k</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>	
+
+									<div class="buscaPreco aux">
+										<label for="imoveisCompra">1.5k ou +</span></label>
+										<input type="radio" name="tipo" value="comprar" class="cform">
+									</div>
+								</form>
+							</li>
+						</ul> <!-- fim box busca -->
+					<span class="buscar"><a href="#">buscar imóveis</span</a>
 
 				</div> <!-- fim box busca -->
 

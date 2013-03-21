@@ -401,15 +401,11 @@ span.destq{
     margin-left: 20px;
     padding: 3px;
     width: 10px;
+    cursor: pointer;
 }
 #geral #header .boxBusca .boxDestaque dl {
-    background-color: #fff;
-    border-radius: 20px 20px 20px 20px;
-    height: 248px;
-    overflow: auto;
     padding-top: 20px;
-    width: 350px;
-    display: none;
+    width: 300px;
 }
 #geral #header .boxBusca .boxDestaque dl span{
     background-color: #f4f4f4;
@@ -459,6 +455,8 @@ span.destq{
 
 #geral #header .boxBusca .boxDestaque .buscaBairro{
     margin: 22px 0 0 285px;
+}
+#geral #header .boxBusca .boxDestaque .buscaBairro img.seleciona{
     cursor: pointer;
 }
 #geral #header .boxBusca .boxDestaque .buscaQuartos{
@@ -491,6 +489,7 @@ span.destq{
     color: #666666;
     font-size: 14px;
     margin-left: 5px;
+    float: right;
 }
 #geral #header .boxBusca span.buscar{
     background: url(../imagens/legenda-buscar-imoveis.jpg) no-repeat scroll 0 0;
@@ -803,11 +802,16 @@ span.destq{
 
 #scrollBairros { 
     width: 300px; 
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
     margin: 20px 0 10px; 
+    height: 275px;
+    position: relative;
+    display: none;
 }
 #scrollBairros .viewport { 
     width: 300px; 
-    height: 475px; 
+    height: 275px; 
     overflow: hidden; 
     position: relative; 
 }

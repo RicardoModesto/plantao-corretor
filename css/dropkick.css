@@ -25,7 +25,6 @@
   .dk_container a {
     cursor: pointer;
     text-decoration: none;
-    width: 116px !important;
   }
 
 /* Opens the dropdown and holds the menu label */
@@ -68,7 +67,8 @@
 
 /* The outer container of the options */
 
-  .dk_options a {
+  #dk_container_estado .dk_options a,
+  #dk_container_cidade .dk_options a {
     background-color: #2c2c2c;
     border-bottom: 1px solid #999;
     font-weight: bold;
@@ -77,8 +77,24 @@
   .dk_options li:last-child a {
     border-bottom: none;
   }
-  .dk_options a:hover,
-  .dk_option_current a {
+   #dk_container_estado2 .dk_options a{
+    background-color: #F5F5F5;;
+    border-bottom: 1px solid #999;
+    font-weight: bold;
+    padding: 8px 0 8px 10px;
+   }
+  #dk_container_estado2 .dk_options a:hover,
+  #dk_container_estado2 .dk_option_current a{
+    background-color: #e7e7e7;
+    color: #666666;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, .5) 0 1px 0;
+  }
+
+  #dk_container_estado .dk_options a:hover,
+  #dk_container_estado .dk_option_current a,
+  #dk_container_cidade .dk_options a:hover,
+  #dk_container_cidade .dk_option_current a {
     background-color: #1a1b1a;
     color: #fff;
     text-decoration: none;
@@ -141,13 +157,25 @@
   width: 120px;
 }
 .dk_options ul li{
-  width: 120px !important;
+  
 }
   .dk_options a,
   .dk_options a:link,
   .dk_options a:visited {
-    display: block;
+    display: block;  
+  }
+  #dk_container_estado .dk_options a,
+  #dk_container_estado .dk_options a:link,
+  #dk_container_estado.dk_options a:visited,
+  #dk_container_cidade .dk_options a,
+  #dk_container_cidade .dk_options a:link,
+  #dk_container_cidade.dk_options a:visited{
     width: 110px !important;
+  }
+   #dk_container_estado2 .dk_options a,
+  #dk_container_estado2 .dk_options a:link,
+  #dk_container_estado2.dk_options a:visited{
+    width: 150px !important;
   }
   .dk_options_inner {
     overflow: auto;
