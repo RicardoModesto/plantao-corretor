@@ -32,6 +32,50 @@
 	float: left;
 	width: 560px;
 }
+#conteudo .colunaLista ul li{
+	clear: both;
+	border-bottom: 1px solid #e1e1e1;
+	float: left;
+	position: relative;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+}
+#conteudo .colunaLista ul li p a{
+	color: #999999;
+}
+#conteudo .colunaLista ul li p a:hover{
+	text-decoration: underline;
+	color: #333333;
+}
+#conteudo .colunaLista ul li:hover h6{
+	display: block;
+}
+#conteudo .colunaLista ul li:hover .img{
+	opacity: 0.6;
+}
+#conteudo .colunaLista ul li h6{
+	font-family: 'latoitalic';
+	color: #068592;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -70px;
+	bottom: 0px;
+	display: none;
+}
+#conteudo .colunaLista ul li a.btnMais{
+	background: url("../imagens/btn-mais-novidade.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	width: 62px;
+	height: 33px;
+	text-indent: -9999px;
+	position: absolute;
+	left: 50%;
+	margin-left: -31px;
+	bottom: -33px;
+}
 #conteudo .colunaLista .img{
 	float: left;
 	width: 220px;
@@ -41,6 +85,128 @@
 	float: left;
 	width: 325px;
 }
+
+#conteudo .banner{
+	position: relative;
+	float: right;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+
+/* ======================= Interna ================= */
+#conteudo .colLeft{
+	position: relative;
+	float: left;
+	width: 620px;
+}
+#conteudo .colLeft .img{
+	width: 620px;
+	height: 380px;
+	position: relative;
+}
+#conteudo .colLeft h3{
+	font-family: 'latoitalic';
+	font-size: 30px;
+	color: #068592;
+	border: none;
+	margin-top: 15px;
+}
+#conteudo .colLeft .marcacao{
+	position: relative;
+	width: 100%;
+	height: 20px;
+}
+
+#conteudo .boxUltimasNovidades{
+	position: relative;
+	float: right;
+	width: 298px;
+	background: #ffffff;
+	border-bottom: 1px solid #d6d6d6;
+	border-left: 1px solid #edecec;
+	border-right: 1px solid #edecec;
+	margin-right: 20px;
+}
+#conteudo .boxUltimasNovidades h4{
+	font-size: 21px;
+	font-family: 'latolight_italic';
+	margin-left: 18px;
+}
+#conteudo .boxUltimasNovidades span.destq{
+	font-size: 24px;
+	display: block;
+}
+#conteudo .boxUltimasNovidades ul li{
+	border-top: 1px solid #f0f0f0;
+	padding: 18px 18px;
+	position: relative;
+}
+#conteudo .boxUltimasNovidades ul li a{
+	color: #666666;
+}
+#conteudo .boxUltimasNovidades ul li a:hover{
+	color: #068592;
+}
+/* Tiny Scrollbar */
+#scrollbar1 { 
+	width: 300px; 
+	margin: 20px 0 10px; 
+}
+#scrollbar1 .viewport { 
+	width: 300px; 
+	height: 475px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar1 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar1 .scrollbar{ 
+	position: absolute; 
+	background-position: 0 0; 
+	right: 0;
+	width: 15px; 
+	z-index: 9999;
+}
+#scrollbar1 .track { 
+	height: 100%; 
+	width:13px; 
+	position: relative; 
+	padding: 0 1px; 
+}
+#scrollbar1 .thumb { 
+	background: transparent url(../imagens/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 6px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar1 .thumb .end { 
+	background: transparent url(../imagens/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 6	px; 
+}
+#scrollbar1 .disable { display: none; }
+.noSelect { 
+	user-select: none; 
+	-o-user-select: none; 
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+}
+
 
 #conteudo #login{
 	margin-top: 185px;
