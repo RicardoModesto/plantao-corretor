@@ -68,7 +68,7 @@
 /* The outer container of the options */
 
   #dk_container_estado .dk_options a,
-  #dk_container_cidade .dk_options a {
+  #dk_container_cidade .dk_options a{
     background-color: #2c2c2c;
     border-bottom: 1px solid #999;
     font-weight: bold;
@@ -77,14 +77,22 @@
   .dk_options li:last-child a {
     border-bottom: none;
   }
-   #dk_container_estado2 .dk_options a{
+  #dk_container_estado2 .dk_options a,
+  #dk_container_mesValidade .dk_options a,
+  #dk_container_mesValidade .dk_options a,
+  #dk_container_anoValidade .dk_options a,
+  #dk_container_anoValidade .dk_options a{
     background-color: #F5F5F5;;
     border-bottom: 1px solid #999;
     font-weight: bold;
     padding: 8px 0 8px 10px;
    }
   #dk_container_estado2 .dk_options a:hover,
-  #dk_container_estado2 .dk_option_current a{
+  #dk_container_estado2 .dk_option_current a,
+  #dk_container_mesValidade .dk_options a:hover,
+  #dk_container_mesValidade .dk_option_current a,
+  #dk_container_anoValidade .dk_options a:hover,
+  #dk_container_anoValidade .dk_option_current a{
     background-color: #e7e7e7;
     color: #666666;
     text-decoration: none;

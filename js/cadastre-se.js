@@ -35,4 +35,43 @@ $(function(){
 	$('.conteudoEscolha .tabela table tr td.plano3:odd').css('background','#f7f9f3');
 
 
+	/* ===================== interações da página ================= */
+		/* abre a tabela do plano */
+	$('.escolhaPlano a.btnDetalhes').click(function(e){
+		e.preventDefault();
+		if($(this).hasClass('atv')){
+			$(this).removeClass('atv');
+			$('.tabela').hide();
+			$(this).html('Mais sobre os <span class="destq">Planos</span> <span class="seta"></span>');
+		}
+		else{
+			$(this).addClass('atv');
+			$('.tabela').show();
+			$(this).html('Ocultar <span class="destq">Detalhes</span> <span class="seta atv"></span>');
+		}
+	});
+
+	$('.escolhaPlano ul li a').click(function(e){
+		e.preventDefault();
+		var escolha = $(this).parent().index() + 1;
+
+		$('#planoEscolhido').val(escolha);
+
+		$('.escolhaPlano ul li a span.checado').hide();
+		$(this).children('span.checado').show();
+
+		$(this).parent().css('opacity','1').siblings().css('opacity','0.5');
+	});
+
+	$('.formaPagamento ul li a').click(function(e){
+		e.preventDefault();
+		$('.dadosCartao').show();
+	});
+
+	$('.btnFinalizarCadastro').click(function(e){
+		e.preventDefault();
+		$('.englobaCadastro').hide();
+		$('.feedBack').show();
+	});	
+
 });

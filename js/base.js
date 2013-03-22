@@ -2,6 +2,8 @@ $(function(){
 	$('.selectEstado').dropkick();
 	$('.selectCidade').dropkick();
 	$('.selectEstadoCadastro').dropkick();
+	$('.mesValidade').dropkick();
+	$('.anoValidade').dropkick();
 	$('form').customForm();
 
 	$('#geral #header .boxBusca .boxDestaque dl dt').click(function (e) {
