@@ -2,15 +2,12 @@ $(function(){
 
 	$('#conteudo ul li:odd').addClass('destaque');
 
-	$('#conteudo ul li h4').click(function(){
-		if($(this).parent('li').hasClass('atv')){
 
-			$(this).parent('li').removeClass('atv').children('p').hide();
-		}
-		else{
-			$(this).parent('li').addClass('atv').children('p').show();
-		}
-		
+
+	$('#conteudo ul.perguntas li').click(function(e){
+		e.preventDefault();
+		$(this).toggleClass('atv').find('p').slideToggle('fast');
+		$(this).siblings('li').removeClass('atv').find('p').hide();
 	});
 
 	/*====================== feedback ==================== */

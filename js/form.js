@@ -10,6 +10,13 @@ $(function(){
           this.value = "";
       }); 
   });
+
+  $('#conteudo #login input.btnLogin').click(function(e) {
+		e.preventDefault();
+		$('#conteudo .box').show();
+		$('#conteudo input.mail').fadeIn();
+		$('#conteudo input.senha').fadeIn();
+	});
   
 
 });

@@ -40,6 +40,7 @@
 	height: 420px;
 	position: relative;
 	margin-bottom: 80px;
+    color: #3C9810;
 }
 #conteudo ul.listaImoveis{
 	width: 5000px;
@@ -47,6 +48,59 @@
 	/*margin-left: -480px;
 	left: 50%;*/
 	left: 0;
+}
+#conteudo #imoveisAluga ul.paginacao{
+	position: absolute;
+	top: 440px;
+	left: 930px;
+	height: 20px;
+	width: 45px;
+}
+#conteudo  #imoveisVenda ul.paginacao{
+	position: absolute;
+	top: 440px;
+	left: 930px;
+	height: 20px;
+	width: 45px;
+}
+#conteudo #imoveisAluga ul.paginacao li{
+	background: url(../imagens/paginacao_aluga.png) repeat scroll 0 0 transparent;
+	width: 14px;
+	height: 15px;
+	float: left;
+}
+#conteudo  #imoveisVenda ul.paginacao li{
+	background: url(../imagens/paginacao_venda.png) repeat scroll 0 0 transparent;
+	width: 14px;
+	height: 15px;
+	float: left;
+}
+#conteudo #imoveisAluga ul.paginacao li.active{
+	background:url(../imagens/paginacao_aluga.png) repeat scroll -16px 0 transparent;
+}
+#conteudo  #imoveisVenda ul.paginacao li.active{
+	background:url(../imagens/paginacao_venda.png) repeat scroll -16px 0 transparent;
+}
+#conteudo #imoveisAluga ul.paginacao li a{
+	display: block;
+	width: 13px;
+	height: 14px;
+}
+#conteudo  #imoveisVenda ul.paginacao li a{
+	display: block;
+	width: 13px;
+	height: 14px;
+}
+
+
+
+
+
+#conteudo #imoveisAluga ul.listaImoveis h4{
+	 color: #3C9810;
+}
+#conteudo #imoveisAluga ul.listaImoveis li ul.infos li span.direita{
+	color: #3C9810;
 }
 #conteudo ul.listaImoveis li{
 	position: absolute;

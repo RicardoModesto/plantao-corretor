@@ -162,3 +162,110 @@
     text-indent: -9999px;
     width: 163px;
 }
+
+
+#conteudo .box{
+    background: url(../imagens/bg-ext-login.jpg) repeat scroll 0 0 transparent;
+    width: 476px;
+    height: 30px;
+    padding: 13px 0 0 14px;
+    position: relative;
+    top: -53px;
+    display: none;
+}
+
+.custom-form-checkbox {
+    float:left;
+    display:block;
+    width:21px;
+    height:17px;
+    margin-right:10px;
+    background:url(../imagens/spt-check.png) no-repeat scroll 0 2px transparent;
+    cursor: pointer;
+    float: left;
+}
+.custom-form-checkbox.custom-form-checked {
+    background-position:0 -17px;
+}
+#conteudo .box label{
+    color: #bebebe;
+    font-size: 14px;
+    margin-top: 2px;
+    float: left;
+}
+
+#conteudo .esqueceuSenha{
+    position: relative;
+    float: right;
+    margin-right: 100px;
+}
+
+#conteudo .esqueceuSenha a.tool{
+    background:url(../imagens/ico-interrogacao.png) no-repeat scroll 0 2px transparent;
+    display: block;
+    width: 22px;
+    height: 21px;
+    text-indent: -9999px;
+    float: left;
+}
+
+#conteudo .esqueceuSenha p{
+    font-family: 'latoitalic';
+    font-size: 14px;
+    float: left;
+    margin: 4px 0 0 5px;
+}
+
+#conteudo .esqueceuSenha p a{
+    color: #bebebe;
+}
+#conteudo #login .redesLogin {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#conteudo #login input.btnLogin {
+	background: url(../imagens/btn-login.jpg) repeat scroll 0 0 transparent;
+	width: 114px;
+	height: 41px;
+	cursor: pointer;
+	float: left;
+	position: absolute;
+	top: 0;
+}
+#conteudo input.mail{
+	background: url(../imagens/bg-cpos-login.jpg) no-repeat scroll 0 0 transparent;
+	width: 198px;
+	height: 41px;
+	font-family: 'latoitalic';
+	font-size: 14px;
+	color: #bebebe;
+	padding: 0 12px;
+	line-height: 41px;
+	border-top: 0 none;
+	border-bottom: 0 none;
+	box-shadow: none;
+	position: relative;
+	top: -45px;
+	display: none;
+}
+#conteudo input.senha{
+	background: url(../imagens/bg-cpos-login.jpg) no-repeat scroll 0 0 transparent;
+	width: 198px;
+	height: 41px;
+	font-family: 'latoitalic';
+	font-size: 14px;
+	color: #bebebe;
+	padding: 0 12px;
+	line-height: 41px;
+	border-top: 0 none;
+	border-bottom: 0 none;
+	box-shadow: none;
+	position: relative;
+	top: -45px;
+	display: none;
+}
+
+
+
+

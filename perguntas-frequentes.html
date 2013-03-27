@@ -239,7 +239,7 @@
 			<div class="centraliza">
 				<h2 class="venda">Perguntas <span class="destq">Frequentes</span></h2>
 				
-				<ul>
+				<ul class="perguntas">
 					<li>
 						<h4>Lorem ipsum dolor sit amet lorem, consectetuer adipiscing elit?</h4>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla.</p>
@@ -282,9 +282,29 @@
 				
 			</div>
 			
-			<div id="login">
+				<div id="login">
 				<div class="centraliza">
+
+					<div class="box">
+						<form>
+							<p>
+								<input type="checkbox" name="logado" value="manter-logado" class="cform">
+								<label>Continuar Conectado</label>
+							</p>
+						</form>
+
+						<div class="esqueceuSenha">
+							<a href="#" class="tool"></a>
+							<p><a href="#">Esqueceu sua Senha?</a></p>
+						</div> <!-- fim esqueceu senha -->
+
+					</div> <!-- fim box -->
+
+
 					<form>
+						<input type="text" placeholder="E-MAIL" class="mail">
+						<input type="text" placeholder="SENHA" class="senha">
+
 						<input type="button" class="btnLogin">
 					</form>
 
