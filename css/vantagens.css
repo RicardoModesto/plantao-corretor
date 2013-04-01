@@ -48,7 +48,7 @@
 	height: 158px;
 }
 #conteudo .headerEscolha .escolha span.icon{
-	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 0 transparent;
+	background: url("../imagens/spt-icones-vantagens.png") repeat scroll 0 0 transparent;
 	width: 120px;
 	height: 120px;
 	position: relative;
@@ -56,7 +56,7 @@
 	margin: 0 7px 0 19px
 }
 #conteudo .headerEscolha .escolha span.icon.atv{
-	background: url("../imagens/spt-icones-vantagens.jpg") repeat scroll 0 -120px transparent;
+	background: url("../imagens/spt-icones-vantagens.png") repeat scroll 0 -120px transparent;
 }
 #conteudo .headerEscolha .escolha.atv{
 	background: #ffffff;

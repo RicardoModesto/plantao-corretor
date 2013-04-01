@@ -247,28 +247,28 @@ div.slider  ul.imagens li span{
 #thumbsScroll .scrollbar{ 
 background: url("../imagens/bg-scrollbar-track-x.png") no-repeat scroll 0 0 transparent;
     clear: both;
-    height: 15px;
+    height: 6px;
     margin: 0 0 5px;
     position: relative;
 }
 #thumbsScroll .track { 
     background: url("../imagens/bg-scrollbar-track-x.png") no-repeat scroll 100% 0 transparent;
-    height: 15px;
+    height: 6px;
     position: relative;
     width: 100%;
 }
 #thumbsScroll .thumb { 
  background: url("../imagens/bg-scrollbar-thumb-x.png") no-repeat scroll 100% 50% transparent;
     cursor: pointer;
-    height: 25px;
+    height: 6px;
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: -5px;
+    top: 0;
 }
 #thumbsScroll .thumb .end { 
-  background: url("../images/bg-scrollbar-thumb-x.png") no-repeat scroll 0 50% transparent;
-    height: 25px;
+  background: url("../imagens/bg-scrollbar-thumb-x.png") no-repeat scroll 0 50% transparent;
+    height: 6px;
     overflow: hidden;
     width: 5px;
 }
